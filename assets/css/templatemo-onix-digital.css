@@ -870,7 +870,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
+  background-image: url('../../public/images/baner-dec-left.png');
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -881,7 +881,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: url('../../public/images/banner-right-image.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -889,10 +889,6 @@ Banner Style
   top: 100px;
   width: 819px;
   height: 674px;
-}
-
-.main-banner .item {
-  margin-right: 45px;
 }
 
 .main-banner .item h6 {
@@ -945,6 +941,9 @@ Banner Style
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
+  display: flex;
+  align-items: center;
+
 }
 
 .main-banner .owl-dots {
@@ -1168,7 +1167,7 @@ Portfolio
 
 .our-portfolio .item .hover-effect {
   position: absolute;
-  background-image: url(../images/hover-bg.png);
+  background-image: url(/public/images/hover-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .5s;
@@ -1379,15 +1378,15 @@ Pricing
 }
 
 .pricing-tables .first-item {
-  background-image: url(../images/first-plan-bg.png);
+  background-image: url(/public/images/first-plan-bg.png);
 }
 
 .pricing-tables .second-item {
-  background-image: url(../images/second-plan-bg.png);
+  background-image: url(/public/images/second-plan-bg.png);
 }
 
 .pricing-tables .third-item {
-  background-image: url(../images/third-plan-bg.png);
+  background-image: url(/public/images/third-plan-bg.png);
 }
 
 
@@ -1402,7 +1401,7 @@ Subscribe
 }
 
 .subscribe .inner-content {
-  background-image: url(../images/subscribe-bg.png);
+  background-image: url(/public/images/subscribe-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1414,7 +1413,7 @@ Subscribe
 
 .subscribe .inner-content:after {
   content: '';
-  background-image: url(../images/subscribe-dec.png);
+  background-image: url(/public/images/subscribe-dec.png);
   position: absolute;
   width: 195px;
   height: 138px;
@@ -1726,7 +1725,7 @@ form#contact {
   margin-left: -100px;
   position: relative;
   z-index: 2;
-  background-image: url(../images/contact-form-bg.png);
+  background-image: url(/public/images/contact-form-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

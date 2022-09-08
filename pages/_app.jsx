@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'assets/scss/style.scss';
 import 'assets/css/templatemo-onix-digital.css';
 import 'assets/css/animated.css';
 import 'assets/css/owl.css';
