@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+import IndexPage from "components/layouts/IndexPage";
 
 import { useRecoilState, useSetRecoilState } from 'recoil';
 
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     < >
       <Head>
-        <title>LOGIN | PSD PARTNER ONLINE</title>
+        <title>HOME | PSD PARTNER ONLINE</title>
         <meta
           name="description"
           content="Login to your PSD PARTNER ONLINE account"
@@ -23,6 +24,7 @@ export default function Home() {
       <Container className='login'>
         <Card>
           <Card.Body>
+            ssssssfffa
           </Card.Body>
           <Card.Footer>
           </Card.Footer>
@@ -31,3 +33,4 @@ export default function Home() {
     </ >
   );
 }
+Home.layout = IndexPage;

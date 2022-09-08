@@ -1,51 +1,36 @@
 import React from "react";
 import Link from "next/link";
 // components
-import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image } from 'react-bootstrap';
 
 
 export default function IndexNavbar() {
   // const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <>
-      <Navbar bg="dark" variant="dark" expand={false}>
-        <Container  >
-          <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
-          <Navbar.Toggle aria-controls="offcanvasNavbar" />
-          <Navbar.Offcanvas
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-            placement="end"
-          >
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Link</Nav.Link>
-                <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
-              <Form className="d-flex">
-                <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
-                />
-                <Button variant="outline-success">Search</Button>
-              </Form>
-            </Offcanvas.Body>
-          </Navbar.Offcanvas>
-        </Container>
-      </Navbar>
-    </>
+    <header className="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <nav className="main-nav">
+              <a href="index.html" className="logo">
+                <Image src={'images/logo.png'} alt="logo-nav" />
+              </a>
+              <ul className="nav">
+                <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
+                <li className="scroll-to-section"><a href="#services">Services</a></li>
+                <li className="scroll-to-section"><a href="#about">About</a></li>
+                <li className="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+                <li className="scroll-to-section"><a href="#video">Videos</a></li>
+                <li className="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                <li className="scroll-to-section"><div className="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li>
+              </ul>
+              <a className='menu-trigger'>
+                <span>Menu</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
