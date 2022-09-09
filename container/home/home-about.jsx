@@ -3,7 +3,7 @@ import { Image, Carousel, Button, Card } from 'react-bootstrap';
 import { FaRegIdCard } from 'react-icons/fa';
 import Slider from "react-slick";
 
-export default function OurTools() {
+export default function HomeAbout() {
     const settings = {
         dots: true,
         infinite: true,
