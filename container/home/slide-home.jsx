@@ -10,7 +10,7 @@ export default function SlideHome() {
     };
     return (
         <>
-            <div className="main-banner">
+            <div id="top" className="main-banner">
                 <div className="row">
                     <div className="col-lg-6">
                         <Carousel activeIndex={indexCarousel} onSelect={handleSelect} controls={false} indicators={false} indicatorLabels={[3]}>

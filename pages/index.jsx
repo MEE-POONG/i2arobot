@@ -10,6 +10,7 @@ import { useState } from 'react'
 
 import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/slide-home';
+import OurTools from 'container/home/our-tools';
 export default function Home() {
   const router = useRouter();
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
       <div>
         <SlideHome />
+        <OurTools />
       </div>
     </ >
   );
