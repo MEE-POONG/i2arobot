@@ -1255,7 +1255,10 @@ Portfolio
 
 .our-portfolio .item .thumb {
   position: relative;
+  width: 468.4px;
+  margin-right: 30px;
 }
+
 
 .our-portfolio .item .thumb:hover .hover-effect {
   bottom: 30px;
