@@ -27,8 +27,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {/* <SlideHome /> */}
-        {/* <OurTools /> */}
+        <SlideHome />
+        <OurTools />
         <HomeAbout/>
         <HomeProfile />
         <HomeService/>
