@@ -28,10 +28,10 @@ export default function Home() {
       </Head>
       <div>
         <SlideHome />
-        <OurTools />
+        <OurTools /> 
         <HomeAbout/>
-        <HomeProfile />
-        {/* <HomeService/> */}
+         <HomeProfile />
+        <HomeService/>
       </div>
     </ >
   );

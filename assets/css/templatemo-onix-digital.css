@@ -979,13 +979,13 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url('../../public/images/banner-right-image.png');
+  background-image: url('../../public/images/kubota3.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;
   top: 100px;
-  width: 819px;
+  width: 900px;
   height: 674px;
 }
 

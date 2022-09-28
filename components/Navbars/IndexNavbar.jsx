@@ -13,7 +13,7 @@ export default function IndexNavbar() {
           <div className="col-12">
             <nav className="main-nav">
               <a href="index.html" className="logo">
-                <Image src={'images/logo.png'} alt="logo-nav" />
+                <Image src={'images/iodesign.png'} alt="logo-nav" />
               </a>
               <ul className="nav">
                 <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>

@@ -17,15 +17,15 @@ export default function SlideHome() {
                             <Carousel.Item >
                                 <Image src={'images/logo.png'} alt="logo-nav" className='opacity-0' />
                                 <Carousel.Caption className="item header-text text-start b-0 pb-0">
-                                    <h6>Welcome to Onix Digital</h6>
-                                    <h2>Build <em>your website</em> the best in <span>SEO</span>?</h2>
-                                    <p>This is a professional looking HTML Bootstrap 5 website template brought to you by TemplateMo website.</p>
+                                    <h6>Welcome to <h3><span>I.o. Design AndHome</span></h3></h6>
+                                    <h2>ตัดหญ้า <em>ง่ายๆ</em> ไม่เปลือง  <span> แรง!!!</span></h2>
+                                    <p><h3>รถตัดหญ้าบังคับวิทยุ สไตล์ ไอโอดีไซน์</h3></p>
                                     <div className="down-buttons">
                                         <div className="main-blue-button-hover">
                                             <a href="#contact">Message Us Now</a>
                                         </div>
                                         <div className="call-button">
-                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 010-020-0340</a>
+                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 02-462-0299</a>
                                         </div>
                                     </div>
                                 </Carousel.Caption>
@@ -33,15 +33,15 @@ export default function SlideHome() {
                             <Carousel.Item>
                                 <Image src={'images/logo.png'} alt="logo-nav" className='opacity-0' />
                                 <Carousel.Caption className="item header-text text-start b-0 pb-0">
-                                    <h6>Online Marketing</h6>
-                                    <h2>Get the <em>best ideas</em> for <span>your website</span></h2>
-                                    <p>You are NOT allowed to redistribute this template ZIP file on any Free CSS collection websites. Contact us for more info. Thank you.</p>
+                                    <h6>innovation</h6>
+                                    <h2>I.O.Design ได้คิดค้น <em>นวัตกรรม</em> ใหม่ในการ <span>ตัดหญ้า</span></h2>
+                                    <p><h3>นวัตกรรมรถตัดหญ้านี้มีความคงทน แข็งแรง ประหยัด และได้ผ่านมาตราฐานสากล</h3></p>
                                     <div className="down-buttons">
                                         <div className="main-blue-button-hover">
                                             <a href="#services">Our Services</a>
                                         </div>
                                         <div className="call-button">
-                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 090-080-0760</a>
+                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099-112-4108</a>
                                         </div>
                                     </div>
                                 </Carousel.Caption>
@@ -49,15 +49,15 @@ export default function SlideHome() {
                             <Carousel.Item>
                                 <Image src={'images/logo.png'} alt="logo-nav" className='opacity-0' />
                                 <Carousel.Caption className="item header-text text-start b-0 pb-0">
-                                    <h6>Online Marketing</h6>
-                                    <h2>Get the <em>best ideas</em> for <span>your website</span></h2>
-                                    <p>You are NOT allowed to redistribute this template ZIP file on any Free CSS collection websites. Contact us for more info. Thank you.</p>
+                                    <h6>engineer</h6>
+                                    <h2>มีวิศวกรที่ <em>เชี่ยวชาญ</em> และ <span>มีคุณภาพมากมาย</span></h2>
+                                    <p><h3> ปลอดภัยต่อผู้ใช้งาน และ มีมาตราฐานในการผลิต </h3></p>
                                     <div className="down-buttons">
                                         <div className="main-blue-button-hover">
                                             <a href="#services">Our Services</a>
                                         </div>
                                         <div className="call-button">
-                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 090-080-0760</a>
+                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 089-513-7365</a>
                                         </div>
                                     </div>
                                 </Carousel.Caption>
