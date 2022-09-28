@@ -24,8 +24,8 @@ export default function HomeService() {
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
                             <div className="section-heading">
-                                <h2>We <em>Provide</em> The Best Service With <span>Our Tools</span></h2>
-                                <span>Our Services</span>
+                                <h2>ให้เรา <em>จัดเตรียม</em> บริการที่ดีที่สุดด้วย <span>เครื่องมือของเรา</span></h2>
+                                <span>บริการของเรา</span>
                             </div>
                         </div>
                     </div>

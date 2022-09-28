@@ -25,7 +25,7 @@ export default function SlideHome() {
                                             <a href="#contact">Message Us Now</a>
                                         </div>
                                         <div className="call-button">
-                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 02-462-0299</a>
+                                            <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099 -112-4108</a>
                                         </div>
                                     </div>
                                 </Carousel.Caption>
