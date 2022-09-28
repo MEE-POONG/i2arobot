@@ -21,8 +21,8 @@ export default function HomeProfile() {
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
                             <div className="section-heading">
-                                <h2>Our Recent <em>Projects</em> &amp; Case Studies <span>for Clients</span></h2>
-                                <span>Our Portfolio</span>
+                                <h2>คุณสามารถเลือกซื้อสินค้าเราได้เลย <em>ทางเรายินดีให้บริการ</em> <span>สำหรับคุณลูกค้า</span></h2>
+                                <span>นี่คือผลงานของเรา</span>
                             </div>
                         </div>
                     </div>
