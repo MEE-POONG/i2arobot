@@ -12,8 +12,9 @@ import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-profile';
-import HomeService from 'container/home/home-service';
+import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
+import HomeVideo from 'container/home/home-video';
 export default function Home() {
   const router = useRouter();
   return (
@@ -28,10 +29,11 @@ export default function Home() {
       </Head>
       <div>
         <SlideHome />
-        <OurTools /> 
-        <HomeAbout/>
-         <HomeProfile />
-        <HomeService/>
+        <OurTools />
+        <HomeAbout />
+        <HomeProfile />
+        <HomePricing />
+        <HomeVideo />
       </div>
     </ >
   );
