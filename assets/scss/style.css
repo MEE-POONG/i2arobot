@@ -1,0 +1,19 @@
+@import"~slick-carousel/slick/slick.css";
+@import"~slick-carousel/slick/slick-theme.css";
+
+.slick-dots li button:before {
+    color: #ff695f
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #ff695f
+}
+
+.color-ff695f {
+    color: #ff695f
+}
+
+.main-banner .carousel-item {
+    left: 0% !important
+}

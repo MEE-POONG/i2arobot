@@ -173,6 +173,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 a {
   text-decoration: none !important;
 }
@@ -961,7 +962,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 236px 0px 130px 0px;
+  padding: 236px 0px 100px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -984,9 +985,10 @@ Banner Style
   background-size: cover;
   position: absolute;
   right: 0;
-  top: 100px;
+  top: 50%;
   width: 900px;
   height: 674px;
+  transform: translateY(-50%);
 }
 
 .main-banner .item h6 {
@@ -1029,7 +1031,7 @@ Banner Style
   line-height: 46px;
   border-radius: 50%;
   background: rgb(255, 104, 95);
-  background: linear-gradient(105deg, rgba(255, 104, 95, 1) 0%, rgba(255, 144, 104, 1) 100%);
+  background: linear-gradient(105deg, rgb(132 255 95) 0%, rgb(104 255 157) 100%);
   color: #fff;
   font-size: 20px;
 }
@@ -1105,7 +1107,6 @@ Services Style
 
 .our-services .section-heading {
   text-align: center;
-  margin-bottom: 45px;
 }
 
 .our-services .section-heading h2 {
@@ -1126,8 +1127,8 @@ Services Style
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
-  margin-bottom: 30px;
-  line-height: 30px;
+  margin-bottom: 20px;
+  line-height: 20px;
 }
 
 .our-services .item .icon {
@@ -1138,8 +1139,8 @@ Services Style
 }
 
 .our-services .item p {
-  margin-top: 35px;
-  padding-top: 30px;
+  margin-top: 25px;
+  padding-top: 20px;
   border-top: 1px solid #eee;
 }
 
@@ -1172,7 +1173,7 @@ About
 
 .about-us {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .about-us .left-image {
@@ -1181,10 +1182,6 @@ About
 
 .about-us .section-heading h2 {
   margin-right: 60px;
-}
-
-.about-us .section-heading p {
-  margin-top: 50px;
 }
 
 .about-us .fact-item .icon {
@@ -1231,7 +1228,7 @@ Portfolio
 }
 
 .our-portfolio {
-  padding-top: 120px;
+  padding-top: 100px;
   margin-top: 0px;
   position: relative;
 }
@@ -1690,7 +1687,7 @@ Video
 
 .our-videos .nacc .thumb .overlay-effect {
   background: rgb(255, 104, 95);
-  background: linear-gradient(105deg, rgba(255, 104, 95, 1) 0%, rgba(255, 144, 104, 1) 100%);
+  background: linear-gradient(105deg, rgb(132 255 95) 0%, rgb(104 255 157) 100%);
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1720,7 +1717,7 @@ Video
 
 .our-videos .menu .thumb .inner-content {
   background: rgb(255, 104, 95);
-  background: linear-gradient(105deg, rgba(255, 104, 95, 1) 0%, rgba(255, 144, 104, 1) 100%);
+  background: linear-gradient(105deg, rgb(132 255 95) 0%, rgb(104 255 157) 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
   position: absolute;
@@ -1809,7 +1806,7 @@ contact
   text-align: center;
   line-height: 46px;
   background: rgb(255, 104, 95);
-  background: linear-gradient(105deg, rgba(255, 104, 95, 1) 0%, rgba(255, 144, 104, 1) 100%);
+  background: linear-gradient(105deg, rgb(132 255 95) 0%, rgb(104 255 157) 100%);
   border-radius: 50%;
   color: #fff;
   font-size: 22px;

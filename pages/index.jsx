@@ -9,7 +9,7 @@ import axios from 'axios';
 import { useState } from 'react'
 
 import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
-import SlideHome from 'container/home/slide-home';
+import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-profile';
 import HomeService from 'container/home/home-service';

@@ -36,7 +36,7 @@ export default function HomeAbout() {
                                         <div className="fact-item">
                                             <div className="count-area-content">
                                                 <div className="icon">
-                                                    <Image src="images/service-icon-01.png" alt="" />
+                                                    <Image src="./images/service-icon-01.png" alt="" />
                                                 </div>
                                                 <div className="count-digit">180</div>
                                                 <div className="count-title">กิโลกรัม</div>
@@ -49,7 +49,7 @@ export default function HomeAbout() {
                                         <div className="fact-item">
                                             <div className="count-area-content">
                                                 <div className="icon">
-                                                    <Image src="images/service-icon-02.png" alt="" />
+                                                    <Image src="./images/service-icon-02.png" alt="" />
                                                 </div>
                                                 <div className="count-digit"> 13</div>
                                                 <div className="count-title">แรงเบนซิน</div>
@@ -61,7 +61,7 @@ export default function HomeAbout() {
                                         <div className="fact-item">
                                             <div className="count-area-content">
                                                 <div className="icon">
-                                                    <Image src="images/service-icon-03.png" alt="" />
+                                                    <Image src="./images/service-icon-03.png" alt="" />
                                                 </div>
                                                 <div className="count-digit">80</div>
                                                 <div className="count-title">เซนติเมตร</div>
