@@ -19,28 +19,28 @@ export default function Footer() {
                 <ul>
                   <li>
                     <a href="#">
-                      <i className="fa fa-facebook">
+                      <i className="fa">
                         <FaFacebookF />
                       </i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-twitter">
+                      <i className="fa">
                         <FaTwitter />
                       </i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-behance">
+                      <i className="fa">
                         <FaBehance />
                       </i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-instagram">
+                      <i className="fa">
                         <FaInstagram />
                       </i>
                     </a>
