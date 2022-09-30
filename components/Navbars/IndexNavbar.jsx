@@ -19,8 +19,6 @@ export default function IndexNavbar() {
                 <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
                 <li className="scroll-to-section"><a href="#services">Services</a></li>
                 <li className="scroll-to-section"><a href="#about">About</a></li>
-                <li className="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-                <li className="scroll-to-section"><a href="#video">Videos</a></li>
                 <li className="scroll-to-section"><a href="#contact">Contact Us</a></li>
                 <li className="scroll-to-section"><div className="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li>
               </ul>

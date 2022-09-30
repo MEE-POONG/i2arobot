@@ -1717,6 +1717,7 @@ Video
 
 .our-videos .menu .thumb {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .our-videos .menu .thumb .inner-content {
@@ -2030,10 +2031,13 @@ responsive
 
   .main-banner .item {
     margin-right: 0px;
+    width: 100%;
+    text-align: center !important;
   }
 
   .main-banner {
     padding-bottom: 0px;
+    padding-top: 100px;
   }
 
   .about-us .section-heading h2 {
@@ -2065,14 +2069,9 @@ responsive
     margin-bottom: 30px;
   }
 
-  .our-videos .naccs .menu div img {
+  /* .our-videos .naccs .menu div img {
     border-radius: 50px;
-  }
-
-  .our-videos .menu .thumb .inner-content {
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
+  } */
 
   .contact-us .section-heading h2 {
     margin-right: 0px;
@@ -2107,6 +2106,9 @@ responsive
 }
 
 @media (max-width: 767px) {
+  .main-banner {
+    padding-top: 50px;
+  }
   .main-banner .item .down-buttons {
     display: inline-block;
   }
@@ -2155,3 +2157,7 @@ responsive
     margin-bottom: 20px;
   }
 }
+  .main-banner {
+    padding-bottom: 0px;
+    padding-top: 100px;
+  }
