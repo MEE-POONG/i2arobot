@@ -15,7 +15,7 @@ import HomeProfile from 'container/home/home-profile';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
-export default function Home() {
+export default function index() {
   const router = useRouter();
   return (
     < >
@@ -28,12 +28,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {/* <SlideHome /> */}
+        <SlideHome />
         <OurTools />
-        {/* <HomeAbout />
+        <HomeAbout />
         <HomeProfile />
         <HomePricing />
-        <HomeVideo /> */}
+        <HomeVideo />
       </div>
     </ >
   );
