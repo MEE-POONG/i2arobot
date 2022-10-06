@@ -28,12 +28,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <SlideHome />
-        {/* <OurTools />
-        <HomeAbout />
+        {/* <SlideHome /> */}
+        <OurTools />
+        {/* <HomeAbout />
         <HomeProfile />
-        <HomePricing /> */}
-        <HomeVideo />
+        <HomePricing />
+        <HomeVideo /> */}
       </div>
     </ >
   );

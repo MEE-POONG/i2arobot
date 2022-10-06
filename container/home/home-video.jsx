@@ -29,37 +29,37 @@ export default function HomeVideo() {
                                         <Tab.Content className="nacc">
                                             <Tab.Pane eventKey="first">
                                                 <div className="thumb">
-                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/JynGuQx4a1Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5ioJMT6nsbc" title="รถตัดหญ้าบังคับวิทยุ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     <div className="overlay-effect">
-                                                        <a href="#"><h4>Project One</h4></a>
-                                                        <span>SEO &amp; Marketing</span>
+                                                        <a href="#"><h4>Potential</h4></a>
+                                                        <span>ศักยภาพในการตัดหญ้า</span>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
                                                 <div className="thumb">
-                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RdJBSFpcO4M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Q6LyqP4j7_o" title="14 กรกฎาคม ค.ศ. 2022" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     <div className="overlay-effect">
-                                                        <a href="#"><h4>Second Project</h4></a>
-                                                        <span>Advertising &amp; Marketing</span>
+                                                        <a href="#"><h4>Strong</h4></a>
+                                                        <span>ความแข็งแรงทนทานในการใช้งาน</span>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
                                                 <div className="thumb">
-                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZlfAjbQiL78" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/V9EILNde0cg" title="รถตัดหญ้างบังคับวิทยุ 13แรง ใบ80cm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                     <div className="overlay-effect">
-                                                        <a href="#"><h4>Project Three</h4></a>
-                                                        <span>Digital &amp; Marketing</span>
+                                                        <a href="#"><h4>Control</h4></a>
+                                                        <span>ง่ายการควมคุม</span>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="fourth">
                                                 <div className="thumb">
-                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/mx1WseE7-0Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dJl9LG-4FV0" title="สเปคเบื้องต้นรถตัดหญ้าบังคับวิทยุ ไอ.โอดีไซน์" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     <div className="overlay-effect">
-                                                        <a href="#"><h4>Fourth Project</h4></a>
-                                                        <span>SEO &amp; Advertising</span>
+                                                        <a href="#"><h4>Spec</h4></a>
+                                                        <span>สเปคเบื้องต้นรถตัดหญ้าบังคับวิทยุ</span>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
@@ -70,37 +70,37 @@ export default function HomeVideo() {
                                             <Nav variant="pills" className="flex-column">
                                                 <Nav.Item >
                                                     <Nav.Link eventKey="first" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-01.png" alt="" />
+                                                        <Image src="./images/video-thumb-335.jpg" alt="" />
                                                         <div className="inner-content">
-                                                            <h4>Project One</h4>
-                                                            <span>SEO &amp; Marketing</span>
+                                                            <h4>Potential</h4>
+                                                            <span>ศักยภาพในการตัดหญ้า</span>
                                                         </div>
                                                     </Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item >
                                                     <Nav.Link eventKey="second" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-02.png" alt="" />
+                                                        <Image src="./images/video-thumb-337.jpg" alt="" />
                                                         <div className="inner-content">
-                                                            <h4>Second Project</h4>
-                                                            <span>Advertising &amp; Marketing</span>
+                                                            <h4>Strong</h4>
+                                                            <span>ความแข็งแรงทนทานในการใช้งาน</span>
                                                         </div>
                                                     </Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="third" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-03.png" alt="Marketing" />
+                                                        <Image src="./images/video-thumb-336.jpg" alt="Marketing" />
                                                         <div className="inner-content">
-                                                            <h4>Project Three</h4>
-                                                            <span>Digital &amp; Marketing</span>
+                                                            <h4>Control</h4>
+                                                            <span>ง่ายการควมคุม</span>
                                                         </div>
                                                     </Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="fourth" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-04.png" alt="SEO Work" />
+                                                        <Image src="./images/video-thumb-339.jpg" alt="SEO Work" />
                                                         <div className="inner-content">
-                                                            <h4>Fourth Project</h4>
-                                                            <span>SEO &amp; Advertising</span>
+                                                            <h4>Spec</h4>
+                                                            <span>สเปคเบื้องต้นรถตัดหญ้าบังคับวิทยุ</span>
                                                         </div>
                                                     </Nav.Link>
                                                 </Nav.Item>
