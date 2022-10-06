@@ -7,6 +7,10 @@ import { useRecoilState, useSetRecoilState } from 'recoil';
 import { useRouter } from 'next/router';
 import axios from 'axios';
 import { useState } from 'react'
+import { FaPhoneAlt } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaGlobeAsia } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/home-banner';
@@ -15,7 +19,7 @@ import HomeProfile from 'container/home/home-profile';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
-export default function Home() {
+export default function contactus() {
   const router = useRouter();
   return (
     < >
@@ -36,208 +40,68 @@ export default function Home() {
         {/* <HomeVideo /> */}
 
         <div id="portfolio" className="our-portfolio section">
-                <div className="portfolio-left-dec">
-                    <Image src="images/portfolio-left-dec.png" alt="" />
+          <div className="portfolio-left-dec">
+            <Image src="images/portfolio-left-dec.png" alt="" />
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 offset-lg-3">
+                <div className="section-heading">
+                  <h2><em>ตัวอย่างรูปภาพ</em> <span>รถตัดหญ้า</span></h2>
+                  <span>Example picture of a lawn mower</span>
                 </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 offset-lg-3">
-                            <div className="section-heading">
-                                <h2><em>ตัวอย่างรูปภาพ</em> <span>รถตัดหญ้า</span></h2>
-                                <span>Example picture of a lawn mower</span>
-                            </div>
-                        </div>
+              </div>
+            </div>
+          </div>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d484.6569287739167!2d100.47176262255218!3d13.642220229992173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a2cc5d820327%3A0xa613a036b2061a31!2z4LmE4Lit4LmC4LitIOC4lOC4teC5hOC4i-C4meC5jEDguYLguK7guKE!5e0!3m2!1sth!2sth!4v1665041908297!5m2!1sth!2sth"
+                  height="600"
+                  style={{ borDer: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  className='w-m-max w-100' />
+              </div>
+            </div>
+
+            <hr></hr>
+
+            <div className='container-fluid'>
+              <div className='row'>
+                <div className='col-lg-9'>
+                  <div className='contact-form'>
+                    <div class="contact-title mb-30"><h2>Get In Touch</h2>
                     </div>
-                </div>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <Slider {...settings}>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-05.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-06.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-07.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-08.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-09.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-10.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-11.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-12.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-13.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-14.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <Image src="./images/portfolio-16.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </Slider>
-                        </div>
+                  </div>
+                  <form className='contact-form'>
+                    <div className='row'>
+                      <div className="col-lg-6 textarea"><input name="name" placeholder="Name*" type="text" />
+                      </div>
+                      <div className="col-lg-6"><input name="email" placeholder="Email*" type="email" />
+                      </div>
+                      <div className="col-lg-12"><input name="subject" placeholder="Subject*" type="text" />
+                      </div>
+                      <div className="col-lg-12"><textarea name="message" placeholder="Your Message*">
+                      </textarea><button className="submit" type="submit">SEND</button>
+                      </div>
                     </div>
+                  </form>
+
                 </div>
-            </div >
-            <Modal
-                size=""
-                show={smShow}
-                onHide={() => setSmShow(false)}
-                aria-labelledby="example-modal-sizes-title-sm">
+                <div className='col-lg-3 contact-form'>
+                  <p><span><FaMapMarkerAlt /> 21/1 ซอย อนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน 10150</span></p>
+                  <p><FaGlobeAsia /><a href="mailto:oiio2005@hotmail.co.th">oiio2005@hotmail.co.th</a></p>
+                  <a href="mailto:oiio2005@yahoo.co.th">oiio2005@yahoo.co.th</a>
+                  <p><span><FaPhoneAlt /> 02-409-2152-9</span></p>
+                  <li><FaFacebook href="https://www.facebook.com/profile.php?id=100079971892608" /></li>
+                </div>
+              </div>
+            </div>
 
-                <Carousel
-                indicators={false}>
-                    <Carousel.Item >
-                        <Image src="./images/portfolio-05.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-06.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-07.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-08.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-09.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-10.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-11.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-12.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-13.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-14.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-16.jpg" alt="" />
-                    </Carousel.Item>
-                </Carousel>
+          </div>
+        </div >
 
-
-
-            </Modal>
       </div>
     </ >
   );
 }
-Home.layout = IndexPage;
+contactus.layout = IndexPage;
