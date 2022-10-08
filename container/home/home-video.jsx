@@ -47,7 +47,7 @@ export default function HomeVideo() {
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
                                                 <div className="thumb">
-                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/V9EILNde0cg" title="รถตัดหญ้างบังคับวิทยุ 13แรง ใบ80cm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/V9EILNde0cg" title="รถตัดหญ้างบังคับวิทยุ 13แรง ใบ80cm" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     <div className="overlay-effect">
                                                         <a href="#"><h4>Control</h4></a>
                                                         <span>ง่ายการควมคุม</span>
