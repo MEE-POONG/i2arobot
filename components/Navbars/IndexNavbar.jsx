@@ -16,11 +16,10 @@ export default function IndexNavbar() {
                 <Image src={'images/iodesign.png'} alt="logo-nav" />
               </a>
               <ul className="nav">
-                <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
-                <li className="scroll-to-section"><a href="#services">Services</a></li>
+                {/* <li className="scroll-to-section"><a href="/" className="active">Home</a></li>
+                <li className="scroll-to-section"><a href="/lawnmower">Services</a></li>
                 <li className="scroll-to-section"><a href="#about">About</a></li>
-                <li className="scroll-to-section"><a href="#contact">Contact Us</a></li>
-                <li className="scroll-to-section"><div className="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li>
+                <li className="scroll-to-section"><div className="main-red-button-hover"><a href="/contact">Contact Us Now</a></div></li> */}
               </ul>
               <a className='menu-trigger'>
                 <span>Menu</span>
