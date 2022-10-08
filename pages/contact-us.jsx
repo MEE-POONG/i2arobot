@@ -92,11 +92,13 @@ export default function contactus() {
                 </div>
               
               <div className='col-lg-3 contact-form'>
-                <p><span><FaMapMarkerAlt /> 21/1 ซอย อนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน 10150</span></p>
-                <p><FaGlobeAsia /><a href="mailto:oiio2005@hotmail.co.th">oiio2005@hotmail.co.th</a></p>
-                <a href="mailto:oiio2005@yahoo.co.th">oiio2005@yahoo.co.th</a>
-                <p><span><FaPhoneAlt /> 02-409-2152-9</span></p>
-                <li><FaFacebook href="https://www.facebook.com/profile.php?id=100079971892608" /></li>
+                <div className="col-lg-12 textarea"><p><span><FaMapMarkerAlt /> 21/1 ซอย อนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน 10150</span></p>
+                </div>
+                <div className="col-lg-12 textarea"><p><FaGlobeAsia /><a href="mailto:oiio2005@hotmail.co.th">oiio2005@hotmail.co.th</a></p>
+                <a href="mailto:oiio2005@yahoo.co.th">oiio2005@yahoo.co.th</a></div>
+                <div className="col-lg-12 textarea"><p><span><FaPhoneAlt /> 02-409-2152-9</span></p>
+                </div>
+                <div className="col-lg-12 textarea"><li><FaFacebook href="https://www.facebook.com/profile.php?id=100079971892608" /></li></div>
               </div>
             </div>
           </div>
