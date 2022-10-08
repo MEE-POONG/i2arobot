@@ -32,7 +32,7 @@ export default function SlideHome() {
                                         </div>
                                     </Carousel.Caption>
                                 </Carousel.Item>
-                                {/* <Carousel.Item>
+                                <Carousel.Item>
                                     <Image src={'images/logo.png'} alt="logo-nav" height={425} className='opacity-0' />
                                     <Carousel.Caption className="item header-text text-start b-0 pb-0">
                                         <h6>innovation</h6>
@@ -63,7 +63,7 @@ export default function SlideHome() {
                                             </div>
                                         </div>
                                     </Carousel.Caption>
-                                </Carousel.Item> */}
+                                </Carousel.Item>
                             </Carousel>
                             <div className="carousel-indicators position-relative d-flex justify-content-start owl-dots">
                                 <Button bsPrefix={indexCarousel === 0 ? "owl-dot active" : "owl-dot"} onClick={() => { setIndexCarousel(0) }} aria-label="Slide 1"></Button>

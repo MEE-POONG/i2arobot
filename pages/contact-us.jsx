@@ -1,7 +1,9 @@
 import Head from 'next/head';
 
 import IndexPage from "components/layouts/IndexPage";
+import Col from 'react-bootstrap/Col';
 
+import Row from 'react-bootstrap/Row';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 
 import { useRouter } from 'next/router';
@@ -20,6 +22,8 @@ import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
 export default function contactus() {
+
+
   const router = useRouter();
   return (
     < >
@@ -76,31 +80,33 @@ export default function contactus() {
                     <div className='row'>
                       <div className="col-lg-6 textarea"><input name="name" placeholder="Name*" type="text" />
                       </div>
-                      <div className="col-lg-6"><input name="email" placeholder="Email*" type="email" />
+                      <div className="col-lg-6 textarea"><input name="email" placeholder="Email*" type="email" />
                       </div>
-                      <div className="col-lg-12"><input name="subject" placeholder="Subject*" type="text" />
+                      <div className="col-lg-12 textarea"><input name="subject" placeholder="Subject*" type="text" />
                       </div>
-                      <div className="col-lg-12"><textarea name="message" placeholder="Your Message*">
+                      <div className="col-lg-12 textarea"><textarea name="message" placeholder="Your Message*">
                       </textarea><button className="submit" type="submit">SEND</button>
                       </div>
                     </div>
                   </form>
-
                 </div>
-                <div className='col-lg-3 contact-form'>
-                  <p><span><FaMapMarkerAlt /> 21/1 ซอย อนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน 10150</span></p>
-                  <p><FaGlobeAsia /><a href="mailto:oiio2005@hotmail.co.th">oiio2005@hotmail.co.th</a></p>
-                  <a href="mailto:oiio2005@yahoo.co.th">oiio2005@yahoo.co.th</a>
-                  <p><span><FaPhoneAlt /> 02-409-2152-9</span></p>
-                  <li><FaFacebook href="https://www.facebook.com/profile.php?id=100079971892608" /></li>
-                </div>
+              
+              <div className='col-lg-3 contact-form'>
+                <p><span><FaMapMarkerAlt /> 21/1 ซอย อนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน 10150</span></p>
+                <p><FaGlobeAsia /><a href="mailto:oiio2005@hotmail.co.th">oiio2005@hotmail.co.th</a></p>
+                <a href="mailto:oiio2005@yahoo.co.th">oiio2005@yahoo.co.th</a>
+                <p><span><FaPhoneAlt /> 02-409-2152-9</span></p>
+                <li><FaFacebook href="https://www.facebook.com/profile.php?id=100079971892608" /></li>
               </div>
             </div>
-
           </div>
-        </div >
 
-      </div>
+        </div>
+      </div >
+
+
+
+    </div>
     </ >
   );
 }

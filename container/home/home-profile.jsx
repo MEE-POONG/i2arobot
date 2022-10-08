@@ -9,14 +9,17 @@ export default function HomeProfile() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 5000,
         slidesToShow: 3,
         slidesToScroll: 1
     };
 
 
-    const [smShow, setSmShow] = useState(false);
+    const [smShow, setSmShow] = useState({show:false,img:""});
     const [lgShow, setLgShow] = useState(false);
+    const [testShow, setViewLgShow] = useState({test:false,img:""});
 
 
 
@@ -54,7 +57,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewShow(true)} >
                                             <Image src="./images/portfolio-06.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -178,13 +181,13 @@ export default function HomeProfile() {
                 </div>
             </div >
             <Modal
-                size=""
+                size="lg"
                 show={smShow}
                 onHide={() => setSmShow(false)}
                 aria-labelledby="example-modal-sizes-title-sm">
 
-                <Carousel
-                indicators={false}>
+                <Carousel indicators={false}
+                wrap={false}>
                     <Carousel.Item >
                         <Image src="./images/portfolio-05.jpg" alt="" />
                     </Carousel.Item>
@@ -220,6 +223,7 @@ export default function HomeProfile() {
                     </Carousel.Item>
                 </Carousel>
 
+               
 
 
             </Modal>
