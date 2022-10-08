@@ -28,12 +28,12 @@ export default function index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <SlideHome />
+        {/* <SlideHome /> */}
         <OurTools />
-        <HomeAbout />
+        {/* <HomeAbout />
         <HomeProfile />
         <HomePricing />
-        <HomeVideo />
+        <HomeVideo /> */}
       </div>
     </ >
   );

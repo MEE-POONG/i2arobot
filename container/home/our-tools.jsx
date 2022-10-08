@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Modal from 'react-bootstrap/Modal';
+
 export default function OurTools() {
     const settings = {
         dots: true,
@@ -14,6 +16,9 @@ export default function OurTools() {
         slidesToShow: 3,
         slidesToScroll: 3
     };
+    const [smShow, setSmShow] = useState({show:false,img:""});
+    const [lgShow, setLgShow] = useState(false);
+    const [viewCatalog, setViewCatalog] = useState({catalog:false,img:""})
     return (
         <>
             <div id="services" className="our-services section">
@@ -22,7 +27,7 @@ export default function OurTools() {
                 </div>
                 <div className="container">
                     <div className="services-left-dec">
-                        <Image src="images/services-left-dec.png" alt="Girl in a jacket" height="200" />
+                        {/* <Image src="images/services-left-dec.png" alt="Girl in a jacket" height="200" /> */}
                     </div>
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
@@ -35,32 +40,45 @@ export default function OurTools() {
                     </div>
 
                     <div class="container">
+
                         <Container>
+
                             <Row>
-                                
+
+
 
                                 <Col md={3} sm={4} >
                                     <div className='owl-services'>
 
-                                        <Image src="./images/LINE_ALBUM_220603_3.jpg" alt="" />
+                                        <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_3.jpg"})}>
+                                            <Image src="./images/LINE_ALBUM_220603_3.jpg" alt="" />
+                                        </a>
+
                                         <h5 className='color-ff695f'>Catalog 1</h5>
                                         <p>0 บาท</p>
 
                                     </div>
+
                                 </Col>
                                 <Col md={3} sm={4} >
                                     <div className='owl-services'>
-
-                                        <Image src="./images/LINE_ALBUM_220603_2.jpg" alt="" />
+                                        <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_2.jpg"})}>
+                                            <Image src="./images/LINE_ALBUM_220603_2.jpg" alt="" />
+                                        </a>
                                         <h5 className='color-ff695f'>Catalog 2</h5>
                                         <p>0 บาท</p>
+
                                     </div>
+
                                 </Col>
+
                                 <Col md={3} sm={4}  >
                                     <div className='owl-services'>
-
-                                        <Image src="./images/LINE_ALBUM_220603_1.jpg" alt="" />
+                                        <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_1.jpg"})}>
+                                            <Image src="./images/LINE_ALBUM_220603_1.jpg" alt="" />
+                                        </a>
                                         <h5 className='color-ff695f'>Catalog 3</h5>
+
                                         <p>0 บาท</p>
 
                                     </div>
@@ -68,16 +86,32 @@ export default function OurTools() {
 
                                 <Col md={3} sm={4} >
                                     <div className='owl-services'>
-
-                                        <Image src="./images/LINE_ALBUM_220603_0.jpg" alt="" />
+                                        <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_0.jpg"})}>
+                                            <Image src="./images/LINE_ALBUM_220603_0.jpg" alt="" />
+                                        </a>
                                         <h5 className='color-ff695f'>Catalog 4</h5>
                                         <p>0 บาท</p>
 
                                     </div>
                                 </Col>
-                                
+
+
                             </Row>
-                            <Row>
+                        </Container>
+                        <Modal
+                            size="md"
+                            show={viewCatalog.catalog}
+                            onHide={() => setViewCatalog({...viewCatalog,catalog:false,img:""})}
+                            aria-labelledby="example-modal-sizes-title-sm"
+                        >                            <Image src={viewCatalog.img} alt="" />
+                           
+                        </Modal>
+                        
+                        {/* <Image src="./images/LINE_ALBUM_220603_3.jpg" alt="" /> */}
+                        {/* <Image src="./images/LINE_ALBUM_220603_1.jpg" alt="" />
+                            <Image src="./images/LINE_ALBUM_220603_0.jpg" alt="" /> */}
+
+                        {/* <Row>
                                 <Col md={4} sm={4} lg={3}>
                                     <div className='owl-services'>
                                         <Card className='item mx-0 px-0'>
@@ -311,8 +345,8 @@ export default function OurTools() {
                                     </div>
                                 </Col>
 
-                            </Row>
-                        </Container>
+                            </Row> */}
+
                     </div>
                 </div>
             </div>
