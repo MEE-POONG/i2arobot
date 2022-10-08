@@ -55,7 +55,7 @@ export default function OurTools() {
                                         </a>
 
                                         <h5 className='color-ff695f'>Catalog 1</h5>
-                                        <p>0 บาท</p>
+                                       
 
                                     </div>
 
@@ -66,7 +66,7 @@ export default function OurTools() {
                                             <Image src="./images/LINE_ALBUM_220603_2.jpg" alt="" />
                                         </a>
                                         <h5 className='color-ff695f'>Catalog 2</h5>
-                                        <p>0 บาท</p>
+                                        
 
                                     </div>
 
@@ -79,7 +79,7 @@ export default function OurTools() {
                                         </a>
                                         <h5 className='color-ff695f'>Catalog 3</h5>
 
-                                        <p>0 บาท</p>
+                                        
 
                                     </div>
                                 </Col>
@@ -90,7 +90,7 @@ export default function OurTools() {
                                             <Image src="./images/LINE_ALBUM_220603_0.jpg" alt="" />
                                         </a>
                                         <h5 className='color-ff695f'>Catalog 4</h5>
-                                        <p>0 บาท</p>
+                                        
 
                                     </div>
                                 </Col>
