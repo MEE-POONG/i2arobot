@@ -62,7 +62,7 @@ export default function contactus() {
               <div className="col-lg-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d484.6569287739167!2d100.47176262255218!3d13.642220229992173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a2cc5d820327%3A0xa613a036b2061a31!2z4LmE4Lit4LmC4LitIOC4lOC4teC5hOC4i-C4meC5jEDguYLguK7guKE!5e0!3m2!1sth!2sth!4v1665041908297!5m2!1sth!2sth"
                   height="600"
-                  style={{ borDer: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  style={{ borDer: 0 }} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                   className='w-m-max w-100' />
               </div>
             </div>
