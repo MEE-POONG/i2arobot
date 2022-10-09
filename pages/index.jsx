@@ -29,11 +29,11 @@ export default function Home() {
       </Head>
       <div>
         {/* <SlideHome /> */}
-        <OurTools />
+        {/* <OurTools /> */}
         {/* <HomeAbout /> */}
         {/* <HomeProfile /> */}
         {/* <HomePricing /> */}
-        {/* <HomeVideo /> */}
+        <HomeVideo />
       </div>
     </ >
   );
