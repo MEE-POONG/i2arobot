@@ -23,7 +23,7 @@ export default function OurTools() {
         <>
             <div id="services" className="our-services section">
                 <div className="services-right-dec">
-                    <Image src="images/services-right-dec.png" alt="Girl in a jacket" height="200" />
+                    {/* <Image src="images/services-right-dec.png" alt="Girl in a jacket" height="200" /> */}
                 </div>
                 <div className="container">
                     <div className="services-left-dec">
