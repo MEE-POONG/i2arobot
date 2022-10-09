@@ -17,11 +17,13 @@ export default function HomeProfile() {
     };
 
 
-    const [smShow, setSmShow] = useState({show:false,img:""});
+    const [smShow, setSmShow] = useState(false);
     const [lgShow, setLgShow] = useState(false);
-    const [testShow, setViewLgShow] = useState({test:false,img:""});
+    const [testShow, setViewLgShow] = useState({ test: false, img: "" });
 
-
+    // testShow = [{
+    //     test: false,img:""
+    // }]
 
     return (
         <>
@@ -45,7 +47,7 @@ export default function HomeProfile() {
                             <Slider {...settings}>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-05.jpg"})} >
                                             <Image src="./images/portfolio-05.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -57,7 +59,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setViewShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-06.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -69,7 +71,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-07.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -81,7 +83,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-08.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -93,7 +95,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-09.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -105,7 +107,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-10.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -117,7 +119,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-11.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -129,7 +131,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-12.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -141,7 +143,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-13.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -153,7 +155,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-14.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -165,7 +167,7 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setSmShow(true)} >
+                                        <a onClick={() => setViewLgShow({...testShow,test: true,img:"./images/portfolio-06.jpg"})} >
                                             <Image src="./images/portfolio-16.jpg" alt="" />
                                             <div className="hover-effect">
                                                 <div className="inner-content">
@@ -181,13 +183,15 @@ export default function HomeProfile() {
                 </div>
             </div >
             <Modal
-                size="lg"
-                show={smShow}
-                onHide={() => setSmShow(false)}
+            className='show-img'
+                fullscreen={true}
+                show={testShow.test}
+                onHide={() => setViewLgShow({...testShow,test:false,img:""})}
                 aria-labelledby="example-modal-sizes-title-sm">
+                    <Image src={testShow.img} alt=""/>
 
-                <Carousel indicators={false}
-                wrap={false}>
+                {/* <Carousel indicators={false}
+                    wrap={false}>
                     <Carousel.Item >
                         <Image src="./images/portfolio-05.jpg" alt="" />
                     </Carousel.Item>
@@ -221,9 +225,9 @@ export default function HomeProfile() {
                     <Carousel.Item>
                         <Image src="./images/portfolio-16.jpg" alt="" />
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
 
-               
+
 
 
             </Modal>

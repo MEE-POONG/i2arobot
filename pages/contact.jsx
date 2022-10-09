@@ -39,7 +39,7 @@ export default function contactus() {
                 <h2>Feel free to <em>Contact</em> us via the <span>HTML form</span></h2>
                 <div id="map">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d484.6569287739167!2d100.47176262255218!3d13.642220229992173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a2cc5d820327%3A0xa613a036b2061a31!2z4LmE4Lit4LmC4LitIOC4lOC4teC5hOC4i-C4meC5jEDguYLguK7guKE!5e0!3m2!1sth!2sth!4v1665041908297!5m2!1sth!2sth"
-                    width="100%" height="360px" frameborder="0" style={{ border: "0" }} allowfullscreen=""></iframe>
+                    width="100%" height="360px" frameBorder="0" style={{ border: "0" }} allowFullScreen=""></iframe>
                 </div>
                 <div className="info">
                   <span><i className="fa fa-phone"></i> <a href="#">010-020-0340<br />090-080-0760</a></span>
@@ -52,12 +52,12 @@ export default function contactus() {
                 <div className="row">
                   <div className="col-lg-12">
                     <fieldset>
-                      <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required />
+                      <input type="name" name="name" id="name" placeholder="Name" autoComplete="on" required />
                     </fieldset>
                   </div>
                   <div className="col-lg-12">
                     <fieldset>
-                      <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required />
+                      <input type="surname" name="surname" id="surname" placeholder="Surname" autoComplete="on" required />
                     </fieldset>
                   </div>
                   <div className="col-lg-12">

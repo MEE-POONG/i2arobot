@@ -7,11 +7,13 @@
         justify-content: center;
     }
 }
-@media(max-width: 767px){
-    .item.header-text.text-start.carousel-caption{
+
+@media(max-width: 767px) {
+    .item.header-text.text-start.carousel-caption {
         text-align: center !important;
     }
 }
+
 .slick-dots li button:before {
     color: #ff695f;
 }
@@ -37,4 +39,18 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+}
+
+.show-img {
+    .modal-content{
+        background-color: unset;
+    }
+    .modal-dialog {
+        padding: 1rem;
+        background: unset;
+
+        img {
+            object-fit: contain;
+        }
+    }
 }
