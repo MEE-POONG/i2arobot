@@ -113,7 +113,7 @@ export default function HomeVideo() {
                     </Tab.Container>
                 </div>
             </div>
-            <div id="subscribe" className="subscribe">
+            {/* <div id="subscribe" className="subscribe">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -133,7 +133,7 @@ export default function HomeVideo() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
         </>

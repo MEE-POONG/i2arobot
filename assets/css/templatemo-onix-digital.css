@@ -994,14 +994,14 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url('../../public/images/kubota3.png');
+  background-image: url('../../public/images/kubota7.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  right: 0;
-  top: 50%;
+  right: 12%;
+  top: 58%;
   width: 900px;
-  height: 674px;
+  height: 800px;
   transform: translateY(-50%);
 }
 
@@ -2174,4 +2174,10 @@ responsive
   .main-banner {
     padding-bottom: 0px;
     padding-top: 100px;
+  }
+  .bgbtcolor{
+    background-color: blue;
+    color: #000;
+    size: 10px;
+    
   }
