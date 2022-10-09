@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Modal from 'react-bootstrap/Modal';
 
 
-export default function HomeProfile() {
+export default function HomeProfile2() {
     const settings = {
         dots: true,
         infinite: true,
@@ -56,8 +56,30 @@ export default function HomeProfile() {
                                         </a>
                                     </div>
                                 </div>
-                              
-                                
+                                <div className="item profile">
+                                    <div className="thumb">
+                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-06.jpg" })} >
+                                            <Image src="./images/portfolio-06.jpg" alt="" />
+                                            <div className="hover-effect">
+                                                <div className="inner-content">
+                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="item profile">
+                                    <div className="thumb">
+                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-07.jpg" })} >
+                                            <Image src="./images/portfolio-07.jpg" alt="" />
+                                            <div className="hover-effect">
+                                                <div className="inner-content">
+                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                                 <div className="item profile">
                                     <div className="thumb">
                                         <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-08.jpg" })} >
@@ -82,9 +104,42 @@ export default function HomeProfile() {
                                         </a>
                                     </div>
                                 </div>
-                               
-                                
-                                
+                                <div className="item profile">
+                                    <div className="thumb">
+                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-10.jpg" })} >
+                                            <Image src="./images/portfolio-10.jpg" alt="" />
+                                            <div className="hover-effect">
+                                                <div className="inner-content">
+                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="item profile">
+                                    <div className="thumb">
+                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-11.jpg" })} >
+                                            <Image src="./images/portfolio-11.jpg" alt="" />
+                                            <div className="hover-effect">
+                                                <div className="inner-content">
+                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="item profile">
+                                    <div className="thumb">
+                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-12.jpg" })} >
+                                            <Image src="./images/portfolio-12.jpg" alt="" />
+                                            <div className="hover-effect">
+                                                <div className="inner-content">
+                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                                 <div className="item profile">
                                     <div className="thumb">
                                         <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-13.jpg" })} >

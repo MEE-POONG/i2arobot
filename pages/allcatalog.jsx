@@ -15,7 +15,7 @@ import HomeProfile from 'container/home/home-profile';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
-export default function index() {
+export default function catalog() {
   const router = useRouter();
   return (
     < >
@@ -38,4 +38,5 @@ export default function index() {
     </ >
   );
 }
-Home.layout = IndexPage;
+
+catalog.layout = IndexPage;
