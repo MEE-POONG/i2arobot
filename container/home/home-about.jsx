@@ -24,13 +24,15 @@ export default function HomeAbout() {
                         <div className="col-lg-6">
                             <div className="section-heading">
                                 <h2>รถตัดหญ้า <em>บังคับวิทยุ </em> <span>ไอโอดีไซน์</span> </h2>
-                                <h2>รายละเอียดเบื้องต้น</h2>
-                                <p>รีโหมด fsi6x 10 ch
+                                <h2 className='mt-5'>รายละเอียดเบื้องต้น</h2>
+                                <p className='mt-3'>รีโหมด fsi6x 10 ch
                                     เครื่องยนต์แม็กนั่ม 13 แรงเบนซิน
                                 </p>
+
                                 <p>ใบตัด 80 เซนติเมตร (เหล็กแหนบ) ระบบ สตาท เร่ง ดับ ยกใบตัดควบคุมด้วยรีโหมดทั้งหมด</p>
                                 <p>ระบบช้าจไฟในตัว มีพัดลมระบายความร้อนไห้กับมอเตอร์ ขนาดตัวรถ 110*110*60</p>
                                 <p>ขับเคลื่อน 4 ล้อ น้ำหนักประมาน 180 กิโลกรัม</p>
+
                                 <div className="row">
                                     <div className="col-lg-4">
                                         <div className="fact-item">
