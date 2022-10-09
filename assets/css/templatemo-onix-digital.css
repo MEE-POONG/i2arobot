@@ -1705,7 +1705,7 @@ Video
 
 .our-videos .nacc .thumb .overlay-effect {
   background: rgb(255, 104, 95);
-  background: linear-gradient(105deg, #55c0ec 0%, #009ad6 100%);
+  background: linear-gradient(105deg, #f55555 0%, #eb0000 100%);
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1736,7 +1736,7 @@ Video
 
 .our-videos .menu .thumb .inner-content {
   background: rgb(255, 104, 95);
-  background: linear-gradient(105deg, #55c0ec 0%, #009ad6 100%);
+  background: linear-gradient(105deg, #f55555 0%, #eb0000 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
   position: absolute;

@@ -50,7 +50,7 @@ export default function HomeVideo() {
                                                     <iframe width="100%" height="auto" src="https://www.youtube.com/embed/V9EILNde0cg" title="รถตัดหญ้างบังคับวิทยุ 13แรง ใบ80cm" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     <div className="overlay-effect">
                                                         <a href="#"><h4>Control</h4></a>
-                                                        <span>ง่ายการควมคุม</span>
+                                                        <span>ง่ายต่อการควมคุม</span>
                                                     </div>
                                                 </div>
                                             </Tab.Pane>
@@ -91,7 +91,7 @@ export default function HomeVideo() {
                                                         <Image src="./images/video-thumb-336.jpg" alt="Marketing" />
                                                         <div className="inner-content">
                                                             <h4>Control</h4>
-                                                            <span>ง่ายการควมคุม</span>
+                                                            <span>ง่ายต่อการควมคุม</span>
                                                         </div>
                                                     </Nav.Link>
                                                 </Nav.Item>
