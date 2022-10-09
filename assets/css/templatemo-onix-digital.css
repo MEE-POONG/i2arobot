@@ -1442,6 +1442,9 @@ Pricing
   z-index: 1;
 }
 
+
+
+
 .pricing-tables .item {
   position: relative;
   z-index: 2;
@@ -1695,6 +1698,10 @@ Video
 
 .our-videos .nacc .thumb {
   position: relative;
+  border-radius: 23px;
+}
+
+.our-videos .menu .thumb img {
   border-radius: 23px;
 }
 
