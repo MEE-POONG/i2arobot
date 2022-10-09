@@ -17,8 +17,8 @@ export default function IndexNavbar() {
               </a>
               <ul className="nav">
                 <li className="scroll-to-section"><a href="/" className="active">Home</a></li>
-                <li className="scroll-to-section"><a href="/lawnmower">Services</a></li>
-                <li className="scroll-to-section"><a href="#about">About</a></li>
+                <li className="scroll-to-section"><a href="/lawnmower">gallery</a></li>
+                <li className="scroll-to-section"><a href="/allcatalog">catalog</a></li>
                 <li className="scroll-to-section"><div className="main-red-button-hover"><a href="/contact">Contact Us Now</a></div></li>
               </ul>
               <a className='menu-trigger'>

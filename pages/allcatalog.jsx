@@ -12,11 +12,14 @@ import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-profile';
-import HomeProfile from 'container/home/home-profile2';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
-export default function Home() {
+<<<<<<<< HEAD:pages/catalog.jsx
+export default function Catalog() {
+========
+export default function catalog() {
+>>>>>>>> 7fdc1f3e02ff93e03810a06241aff2251f95de91:pages/allcatalog.jsx
   const router = useRouter();
   return (
     < >
@@ -29,14 +32,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <SlideHome />
-        {/* <OurTools /> */}
-        <HomeAbout />
-        {/* <HomeProfile /> */}
-        {/* <HomePricing /> */}
-        <HomeVideo />
+
+        <OurTools />
+
       </div>
     </ >
   );
 }
-Home.layout = IndexPage;
+<<<<<<<< HEAD:pages/catalog.jsx
+Catalog.layout = IndexPage;
+========
+
+catalog.layout = IndexPage;
+>>>>>>>> 7fdc1f3e02ff93e03810a06241aff2251f95de91:pages/allcatalog.jsx
