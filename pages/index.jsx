@@ -29,8 +29,8 @@ export default function Home() {
       </Head>
       <div>
         {/* <SlideHome /> */}
-        {/* <OurTools /> */}
-        <HomeAbout />
+        <OurTools />
+        {/* <HomeAbout /> */}
         {/* <HomeProfile /> */}
         {/* <HomePricing /> */}
         {/* <HomeVideo /> */}

@@ -50,30 +50,29 @@ export default function Footer() {
             </div>
             <div className="col-lg-3">
               <div className="services footer-item">
-                <h4>Services</h4>
+                <h4>แข็งแรงทนทาน</h4>
                 <ul>
-                  <li><a href="#">SEO Development</a></li>
-                  <li><a href="#">Business Growth</a></li>
-                  <li><a href="#">Social Media Managment</a></li>
-                  <li><a href="#">Website Optimization</a></li>
+                  <p>วัสดุชันดี</p>
+                  <p>ทนทานต่อการใช้งาน</p>
+                  <p>ตัดได้นาน เครื่องไม่ร้อนง่าย</p>
+                  
                 </ul>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="community footer-item">
-                <h4>Community</h4>
+                <h4>พร้อมลุยทุกสถานะการ</h4>
                 <ul>
-                  <li><a href="#">Digital Marketing</a></li>
-                  <li><a href="#">Business Ideas</a></li>
-                  <li><a href="#">Website Checkup</a></li>
-                  <li><a href="#">Page Speed Test</a></li>
+                <p> หญ็าสูงก็ตัดได้</p>
+                  <p>มีกิ่งไม้ ก้อนหิน ก็ตัดได้</p>
+                  
                 </ul>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="subscribe-newsletters footer-item">
-                <h4>Subscribe Newsletters</h4>
-                <p>Get our latest news and ideas to your inbox</p>
+                <h4>สะดวกในการตัดหญ้า</h4>
+                <p>ไม่ต้องเปลืองอรงของเรา บังคับง่าย</p>
                 <form action="#" method="get">
                   <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="" />
                   <button type="submit" id="form-submit" className="main-button "><i className="fa fa-paper-plane-o"></i></button>
