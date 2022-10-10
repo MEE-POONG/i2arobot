@@ -15,7 +15,7 @@ import HomeProfile from 'container/home/home-profile';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
-export default function catalog() {
+export default function Catalog() {
   const router = useRouter();
   return (
     < >
@@ -28,15 +28,11 @@ export default function catalog() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {/* <SlideHome /> */}
+
         <OurTools />
-        {/* <HomeAbout />
-        <HomeProfile />
-        <HomePricing />
-        <HomeVideo /> */}
+
       </div>
     </ >
   );
 }
-
-catalog.layout = IndexPage;
+Catalog.layout = IndexPage;
