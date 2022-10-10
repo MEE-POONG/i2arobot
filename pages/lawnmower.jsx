@@ -13,7 +13,7 @@ import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-profile';
 import HomeProfile2 from 'container/home/home-profile2';
-
+import HomeProfile3 from 'container/home/home-profile3';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
@@ -35,6 +35,7 @@ export default function Home() {
         {/* <HomeAbout /> */} 
         <HomeProfile />
         <HomeProfile2 />
+        <HomeProfile3 />
         {/* <HomePricing /> */}
         {/* <HomeVideo /> */}
       </div>

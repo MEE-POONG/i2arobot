@@ -9,6 +9,7 @@ export default function HomeProfile() {
     const settings = {
         dots: true,
         infinite: true,
+        centerMode: true,
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 5000,
@@ -46,10 +47,11 @@ export default function HomeProfile() {
                             <Slider {...settings}>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-05.jpg" })} >
                                             <Image src="./images/portfolio-05.jpg" alt="" />
+                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-05.jpg" })} >
                                             <div className="hover-effect">
                                                 <div className="inner-content">
+                                                <h3 className='cvp'>Click to see pictures</h3>
                                                     <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
                                                 </div>
                                             </div>
@@ -58,39 +60,28 @@ export default function HomeProfile() {
                                 </div>
                               
                                 
+                                
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-08.jpg" })} >
-                                            <Image src="./images/portfolio-08.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-09.jpg" })} >
                                             <Image src="./images/portfolio-09.jpg" alt="" />
+                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-09.jpg" })} >
                                             <div className="hover-effect">
                                                 <div className="inner-content">
+                                                    <h3 className='cvp'>Click to see pictures</h3>
                                                     <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                               
-                                
-                                
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-13.jpg" })} >
+                                        
                                             <Image src="./images/portfolio-13.jpg" alt="" />
+                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-13.jpg" })} >
                                             <div className="hover-effect">
                                                 <div className="inner-content">
+                                                <h3 className='cvp'>Click to see pictures</h3>
                                                     <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
                                                 </div>
                                             </div>
@@ -99,28 +90,19 @@ export default function HomeProfile() {
                                 </div>
                                 <div className="item profile">
                                     <div className="thumb">
-                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-14.jpg" })} >
+                                        
                                             <Image src="./images/portfolio-14.jpg" alt="" />
+                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-14.jpg" })} >
                                             <div className="hover-effect">
                                                 <div className="inner-content">
+                                                <h3 className='cvp'>Click to see pictures</h3>
                                                     <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-16.jpg" })} >
-                                            <Image src="./images/portfolio-16.jpg" alt="" />
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                                
                             </Slider>
                         </div>
                     </div>
@@ -128,11 +110,12 @@ export default function HomeProfile() {
             </div >
             <Modal
                 className='show-img'
-                fullscreen={true}
+                // fullscreen={true}
+                 size="lg"
                 show={viewLgShow.test}
                 onHide={() => setViewLgShow({ ...viewLgShow, test: false, img: "" })}
                 aria-labelledby="example-modal-sizes-title-sm">
-                <Button className='bgclcolor' variant="primary" onClick={() => setViewLgShow({ ...viewLgShow, test: false, img: "" })}>
+                <Button className='bgclcolor' variant="danger" onClick={() => setViewLgShow({ ...viewLgShow, test: false, img: "" })}>
                     Close
                 </Button>
                 <Image src={viewLgShow.img} alt="" />
