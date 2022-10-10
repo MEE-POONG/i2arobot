@@ -72,7 +72,7 @@ export default function HomeVideo() {
                                             <Nav variant="pills" className="flex-column">
                                                 <Nav.Item >
                                                     <Nav.Link eventKey="first" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-335.jpg" alt="" />
+                                                        <Image src="./images/moji12.jpg" alt="" />
                                                         <div className="inner-content">
                                                             <h4>Potential</h4>
                                                             <span>ศักยภาพในการตัดหญ้า</span>
@@ -81,7 +81,7 @@ export default function HomeVideo() {
                                                 </Nav.Item>
                                                 <Nav.Item >
                                                     <Nav.Link eventKey="second" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-337.jpg" alt="" />
+                                                        <Image src="./images/moji2.jpg" alt="" />
                                                         <div className="inner-content">
                                                             <h4>Strong</h4>
                                                             <span>ความแข็งแรงทนทานในการใช้งาน</span>
@@ -90,7 +90,7 @@ export default function HomeVideo() {
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="third" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-336.jpg" alt="Marketing" />
+                                                        <Image src="./images/moji3.jpg" alt="Marketing" />
                                                         <div className="inner-content">
                                                             <h4>Control</h4>
                                                             <span>ง่ายต่อการควมคุม</span>
@@ -99,7 +99,7 @@ export default function HomeVideo() {
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="fourth" className='thumb p-0'>
-                                                        <Image src="./images/video-thumb-339.jpg" alt="SEO Work" />
+                                                        <Image src="./images/moji4.jpg" alt="SEO Work" />
                                                         <div className="inner-content">
                                                             <h4>Spec</h4>
                                                             <span>สเปคเบื้องต้นรถตัดหญ้าบังคับวิทยุ</span>
