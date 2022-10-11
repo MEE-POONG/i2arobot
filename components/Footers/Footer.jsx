@@ -89,11 +89,11 @@ export default function Footer() {
             </div>
             <div className="col-lg-12">
               <div className="copyright">
-                <p>Copyright © 2021 Onix Digital Co., Ltd. All Rights Reserved.
+                <p>ME PROMPT TECHNOLOGY COMPANY LIMITED
                   <br />
-                  Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a>
+                  บริษัท มี พุง กรุ๊ป จำกัด <a rel="nofollow" href="https://www.meepoong.com/" title="free CSS templates">WRDSITE MEE POONG</a>
                   <br />
-                  Distributed by <a href="https://themewagon.com">Themewagon</a>
+                
                 </p>
               </div>
             </div>
