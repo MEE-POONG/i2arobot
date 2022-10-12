@@ -9,7 +9,6 @@ import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-profile';
 import HomePricing from 'container/home/home-pricing';
-import Homenext from 'container/home/home-next';
 
 
 import HomeAbout from 'container/home/home-about';
@@ -33,7 +32,7 @@ export default function Home() {
         {/* <HomeProfile /> */}
         {/* <HomePricing /> */}
         {/* <HomeVideo /> */}
-        <Homenext />
+        
       </div>
     </ >
   );
