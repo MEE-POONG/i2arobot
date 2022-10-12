@@ -31,7 +31,7 @@ export default function Home() {
         <HomeAbout />
         {/* <HomeProfile /> */}
         {/* <HomePricing /> */}
-        {/* <HomeVideo /> */}
+        <HomeVideo />
         
       </div>
     </ >

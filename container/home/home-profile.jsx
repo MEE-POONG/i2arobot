@@ -1,36 +1,24 @@
+import { SLIDER_SETTING } from '@/utils/slider-setting';
 import React, { useState } from 'react';
-import { Image, Carousel, Button, Card } from 'react-bootstrap';
-import { FaRegIdCard } from 'react-icons/fa';
+import { Image } from 'react-bootstrap';
 import Slider from "react-slick";
-import Modal from 'react-bootstrap/Modal';
+import ModelShowImage from '../../components/Home/ModelShowImage'
 
 
-export default function HomeProfile() {
-    const settings = {
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 5000,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    };
 
-    const [smShow, setSmShow] = useState(false);
-    const [lgShow, setLgShow] = useState(false);
-    const [viewLgShow, setViewLgShow] = useState({ test: false, img: "" });
+export default function HomeProfile({ list }) {
 
-    // viewLgShow = [{
-    //     test: false,img:""
-    // }]
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     return (
         <>
             <div id="portfolio" className="our-portfolio section">
                 <div className="portfolio-left-dec">
                     <Image src="images/portfolio-left-dec.png" alt="" />
-                </div> 
+                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
@@ -44,123 +32,28 @@ export default function HomeProfile() {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">
-                            <Slider {...settings}>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                            <Image src="./images/portfolio-05.jpg" alt="" />
-                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-05.jpg" })} >
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                <h3 className='cvp'>Click to see pictures</h3>
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                              
-                                
-                                
-                                <div className="item profile">
-                                    <div className="thumb">
-                                            <Image src="./images/portfolio-09.jpg" alt="" />
-                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-09.jpg" })} >
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                    <h3 className='cvp'>Click to see pictures</h3>
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        
-                                            <Image src="./images/portfolio-13.jpg" alt="" />
-                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-13.jpg" })} >
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                <h3 className='cvp'>Click to see pictures</h3>
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb">
-                                        
-                                            <Image src="./images/portfolio-14.jpg" alt="" />
-                                            <a onClick={() => setViewLgShow({ ...viewLgShow, test: true, img: "./images/portfolio-14.jpg" })} >
-                                            <div className="hover-effect">
-                                                <div className="inner-content">
-                                                <h3 className='cvp'>Click to see pictures</h3>
-                                                    <h4>EXAMPLE PICTURE OF A LAWN MOWER</h4>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                
+                            <Slider {...SLIDER_SETTING}>
+                                {list?.map(image => showImageInSlide(image))}
                             </Slider>
                         </div>
                     </div>
                 </div>
             </div >
-            <Modal
-                className='show-img'
-                // fullscreen={true}
-                 size="lg"
-                show={viewLgShow.test}
-                onHide={() => setViewLgShow({ ...viewLgShow, test: false, img: "" })}
-                aria-labelledby="example-modal-sizes-title-sm">
-                <Button className='bgclcolor' variant="danger" onClick={() => setViewLgShow({ ...viewLgShow, test: false, img: "" })}>
-                    Close
-                </Button>
-                <Image src={viewLgShow.img} alt="" />
 
-                {/* <Carousel indicators={false}
-                    wrap={false}>
-                    <Carousel.Item >
-                        <Image src="./images/portfolio-05.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-06.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-07.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-08.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-09.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-10.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-11.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-12.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-13.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-14.jpg" alt="" />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image src="./images/portfolio-16.jpg" alt="" />
-                    </Carousel.Item>
-                </Carousel> */}
-
-
-
-
-            </Modal>
         </>
     );
+
+
+    function showImageInSlide(image) {
+        return (
+            <>
+                <div className="item profile" onClick={handleShow}>
+                    <div className="thumb">
+                        <Image src={image} alt="" />
+                    </div>
+                </div>
+                <ModelShowImage show={show} image={image} handleClose={handleClose} />
+            </>
+        );
+    }
 }
