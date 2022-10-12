@@ -12,13 +12,32 @@ import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-profile';
-import HomeProfile2 from 'container/home/home-profile2';
-import HomeProfile3 from 'container/home/home-profile3';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
 export default function Home() {
   const router = useRouter();
+  const images_1 = [
+    '/images/portfolio-05.jpg',
+    '/images/portfolio-09.jpg',
+    '/images/portfolio-13.jpg',
+    '/images/portfolio-14.jpg'
+  ]
+  const images_2 = [
+    '/images/portfolio-20.jpg',
+    '/images/portfolio-21.jpg',
+    '/images/portfolio-23.jpg',
+    '/images/portfolio-24.jpg',
+    '/images/portfolio-25.jpg',
+  ]
+  const images_3 = [
+    '/images/portfolio-31.jpg',
+    '/images/portfolio-32.jpg',
+    '/images/portfolio-33.jpg',
+    '/images/portfolio-16.jpg',
+  ]
+    
+ 
   return (
     < >
       <Head>
@@ -33,9 +52,9 @@ export default function Home() {
       
         {/* <OurTools /> */}
         {/* <HomeAbout /> */} 
-        <HomeProfile />
-        <HomeProfile2 />
-        <HomeProfile3 />
+        <HomeProfile list={images_1} />
+        <HomeProfile list={images_2} />
+        <HomeProfile list={images_3} />
         {/* <HomePricing /> */}
         {/* <HomeVideo /> */}
       </div>
