@@ -4,7 +4,7 @@ import { FaRegIdCard } from 'react-icons/fa';
 import Slider from "react-slick";
 
 
-export default function HomeVideo({}) {
+export default function HomeVideo({ }) {
     const settings = {
         dots: true,
         infinite: true,
@@ -12,8 +12,8 @@ export default function HomeVideo({}) {
         slidesToShow: 3,
         slidesToScroll: 3
     };
-    
-   
+
+
 
     const [viewVideo, setViewVideo] = useState({ show: false, video: "", fourthtopic: "", contentfour: "" })
     return (
@@ -136,20 +136,13 @@ export default function HomeVideo({}) {
                                     </Col>
                                     <Col md={6}>
                                         <Nav.Item >
-                                            <div class="nav-item">
-                                                
-
-                                                    <Nav.Link eventKey="first" className='thumb p-0' onClick={() => setViewVideo({ ...viewVideo, show: true, video: "https://www.youtube.com/embed/Q6LyqP4j7_o", fourthtopic: "Strong", contentfour: "ความแข็งแรงทนทานในการใช้งาน" })}>
-                                                        <Image src="./images/video-thumb-01.png" alt="" />
-                                                        <div className="inner-content">
-                                                            <h4>Strong</h4>
-                                                            <span>ความแข็งแรงทนทานในการใช้งาน</span>
-                                                        </div>
-
-                                                    </Nav.Link>
-                                               
-                                            </div>
-
+                                            <Nav.Link eventKey="first" className='thumb p-0' onClick={() => setViewVideo({ ...viewVideo, show: true, video: "https://www.youtube.com/embed/Q6LyqP4j7_o", fourthtopic: "Strong", contentfour: "ความแข็งแรงทนทานในการใช้งาน" })}>
+                                                <Image src="./images/video-thumb-01.png" alt="" />
+                                                <div className="inner-content">
+                                                    <h4>Strong</h4>
+                                                    <span>ความแข็งแรงทนทานในการใช้งาน</span>
+                                                </div>
+                                            </Nav.Link>
                                         </Nav.Item>
                                     </Col>
                                     <Col md={6}>
@@ -174,7 +167,6 @@ export default function HomeVideo({}) {
                                             </Nav.Link>
                                         </Nav.Item>
                                     </Col>
-
                                 </Row>
 
                             </div>
@@ -209,6 +201,6 @@ export default function HomeVideo({}) {
 
         </>
     );
-    
-    
+
+
 }

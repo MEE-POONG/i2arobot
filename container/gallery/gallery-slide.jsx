@@ -1,13 +1,12 @@
 import { SLIDER_SETTING } from '@/utils/slider-setting';
 import React, { useState } from 'react';
-import { useEffect } from 'react';
 import { Image } from 'react-bootstrap';
 import Slider from "react-slick";
 import ModelShowImage from '../../components/Home/ModelShowImage'
 
 
 
-export default function HomeSlide({ list }) {
+export default function GallerySlide({ list }) {
 
     const [show, setShow] = useState(false);
     const [imageShow, setImageShow] = useState(false);
