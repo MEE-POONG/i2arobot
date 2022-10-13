@@ -39,7 +39,7 @@ export default function OurTools() {
                         </div>
                     </div>
 
-                    <div class="container">
+                    <div className="container">
 
                         <Container>
 

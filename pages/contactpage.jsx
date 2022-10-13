@@ -2,23 +2,8 @@ import Head from 'next/head';
 
 import IndexPage from "components/layouts/IndexPage";
 
-import { useRecoilState, useSetRecoilState } from 'recoil';
-
 import { useRouter } from 'next/router';
-import axios from 'axios';
-import { useState } from 'react'
-import { FaPhoneAlt } from 'react-icons/fa';
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { FaGlobeAsia } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
 
-import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
-import SlideHome from 'container/home/home-banner';
-import OurTools from 'container/home/our-tools';
-import HomeProfile from 'container/home/home-slide';
-import HomePricing from 'container/home/home-pricing';
-import HomeAbout from 'container/home/home-about';
-import HomeVideo from 'container/home/home-video';
 export default function ContactPage() {
   const router = useRouter();
   return (
