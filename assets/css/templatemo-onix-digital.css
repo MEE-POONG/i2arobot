@@ -351,6 +351,7 @@ body {
 
 .main-red-button-hover a:hover {
   background-color: #03a4ed;
+  color: #ffffff;
 }
 
 .main-white-button a {
@@ -411,6 +412,9 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 
 .header-area .main-nav .logo {
@@ -437,7 +441,7 @@ header
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-right: 0px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -453,13 +457,9 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:last-child {
-  padding-right: 0px;
-  padding-left: 40px;
-}
 
-.header-area .main-nav .nav li:last-child a,
-.background-header .main-nav .nav li:last-child a {
+.header-area .main-nav .main-red-button-hover a,
+.background-header .main-nav .main-red-button-hover a {
   color: #fff !important;
   padding: 0px 20px;
   font-weight: 400;
@@ -470,14 +470,14 @@ header
   color: #fff !important;
 }
 
-.header-area .main-nav .nav li:last-child .main-red-button-hover a:hover,
-.background-header .main-nav .nav li:last-child .main-red-button-hover a:hover {
+.header-area .main-nav .nav .main-red-button-hover a:hover,
+.background-header .main-nav .nav .main-red-button-hover a:hover {
   background-color: #03a4ed !important;
 }
 
-.header-area .main-nav .nav li a {
-  display: block;
+.header-area .main-nav a {
   font-weight: 500;
+  margin: 2px 15px;
   font-size: 15px;
   color: #2a2a2a;
   text-transform: capitalize;
@@ -489,6 +489,14 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
 }
 
 .header-area .main-nav .nav li a {
@@ -500,6 +508,16 @@ header
   color: #ff685f !important;
 }
 
+.header-area .main-nav a:hover,
+.header-area .main-nav a:active,
+.header-area .main-nav a.active {
+  color: #ff685f !important;
+}
+.header-area .main-nav .main-red-button-hover a:hover,
+.header-area .main-nav .main-red-button-hover a:active,
+.header-area .main-nav .main-red-button-hover a.active {
+  color: #ffffff !important;
+}
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: #ff685f !important;
@@ -1313,10 +1331,12 @@ Portfolio
   border-radius: 20px;
   transition: all .3s;
 }
+
 .our-portfolio .item .thumb iframe {
   border-radius: 20px;
   transition: all .3s;
 }
+
 .owl-portfolio .owl-nav {
   position: absolute;
   top: 42%;
@@ -2133,6 +2153,7 @@ responsive
   .main-banner {
     padding-top: 50px;
   }
+
   .main-banner .item .down-buttons {
     display: inline-block;
   }
@@ -2181,18 +2202,21 @@ responsive
     margin-bottom: 20px;
   }
 }
-  .main-banner {
-    padding-bottom: 0px;
-    padding-top: 100px;
-  }
-  .bgbtcolor{
-    background-color: blue;
-    color: #000;
-    size: 10px;
-    text-align: center;
-  }
-  .cvp{
-    color: #000;
-    text-align: center;
 
-  }
+.main-banner {
+  padding-bottom: 0px;
+  padding-top: 100px;
+}
+
+.bgbtcolor {
+  background-color: blue;
+  color: #000;
+  size: 10px;
+  text-align: center;
+}
+
+.cvp {
+  color: #000;
+  text-align: center;
+
+}
