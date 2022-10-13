@@ -10,9 +10,9 @@ export default function ModelShowImage({ show, image, handleClose }) {
             show={show}
             onHide={handleClose}
             aria-labelledby="example-modal-sizes-title-sm">
-            <Button className='bgclcolor' variant="danger" onClick={handleClose}>
+            {/* <Button className='bgclcolor' variant="danger" onClick={handleClose}>
                 Close
-            </Button>
+            </Button> */}
             <Image src={image} alt="iodesign-slider-image" />
         </Modal>
     </>;

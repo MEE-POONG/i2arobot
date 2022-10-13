@@ -11,7 +11,7 @@ import { useState } from 'react'
 import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
-import HomeProfile from 'container/home/home-profile';
+import HomeProfile from 'container/home/home-slide';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';

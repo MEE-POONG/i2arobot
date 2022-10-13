@@ -11,7 +11,7 @@ import { useState } from 'react'
 import { Card, Container, Form, Image, Carousel } from 'react-bootstrap';
 import SlideHome from 'container/home/home-banner';
 import OurTools from 'container/home/our-tools';
-import HomeProfile from 'container/home/home-profile';
+import HomeProfile from 'container/home/home-slide';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
@@ -36,8 +36,8 @@ export default function Home() {
     '/images/portfolio-33.jpg',
     '/images/portfolio-16.jpg',
   ]
-    
- 
+
+
   return (
     < >
       <Head>
@@ -49,14 +49,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-      
-        {/* <OurTools /> */}
-        {/* <HomeAbout /> */} 
-        <HomeProfile list={images_1} />
-        <HomeProfile list={images_2} />
-        <HomeProfile list={images_3} />
-        {/* <HomePricing /> */}
-        {/* <HomeVideo /> */}
+        <div id="portfolio" className="our-portfolio section">
+          <div className="portfolio-left-dec">
+            <Image src="images/portfolio-left-dec.png" alt="" />
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 offset-lg-3">
+                <div className="section-heading">
+                  <h2><em>ตัวอย่างรูปภาพ</em> <span>รถตัดหญ้า</span></h2>
+                  <span>Example picture of a lawn mower</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <HomeProfile list={images_1} />
+          <HomeProfile list={images_2} />
+          <HomeProfile list={images_3} />
+        </div >
       </div>
     </ >
   );
