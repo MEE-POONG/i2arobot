@@ -1313,7 +1313,10 @@ Portfolio
   border-radius: 20px;
   transition: all .3s;
 }
-
+.our-portfolio .item .thumb iframe {
+  border-radius: 20px;
+  transition: all .3s;
+}
 .owl-portfolio .owl-nav {
   position: absolute;
   top: 42%;
