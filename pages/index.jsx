@@ -3,7 +3,7 @@ import IndexPage from "components/layouts/IndexPage";
 import { useRouter } from 'next/router';
 import SlideHome from 'container/home/home-banner';
 import HomeAbout from 'container/home/home-about';
-import HomeVideo from 'container/home/home-video';
+import HomeVideo from 'container/video/video-views';
 import VideoGallery from 'container/home/home-videogallery';
 export default function HomePage() {
   const router = useRouter();

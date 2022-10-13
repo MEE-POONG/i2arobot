@@ -5,7 +5,7 @@ import IndexPage from "components/layouts/IndexPage";
 
 import { useRouter } from 'next/router';
 
-import HomeVideo from 'container/home/home-video';
+import VideoViews from 'container/video/video-views';
 export default function Home() {
   const router = useRouter();
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <HomeVideo />
+        <VideoViews />
       </div>
     </ >
   );

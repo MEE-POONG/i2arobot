@@ -1,20 +1,8 @@
 import React, { useState } from 'react';
-import { Image, Carousel, Button, Nav, Tab, Row, Col, Modal } from 'react-bootstrap';
-import { FaRegIdCard } from 'react-icons/fa';
-import Slider from "react-slick";
+import { Image, Nav, Tab, Row, Col, Modal } from 'react-bootstrap';
 
 
-export default function HomeVideo({ }) {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    };
-
-
-
+export default function VideoViews({ }) {
     const [viewVideo, setViewVideo] = useState({ show: false, video: "", fourthtopic: "", contentfour: "" })
     return (
         <>

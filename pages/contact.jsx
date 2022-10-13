@@ -18,7 +18,7 @@ import OurTools from 'container/home/our-tools';
 import HomeProfile from 'container/home/home-slide';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
-import HomeVideo from 'container/home/home-video';
+import HomeVideo from 'container/video/video-views';
 export default function contactus() {
   const router = useRouter();
   return (
