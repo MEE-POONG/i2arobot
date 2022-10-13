@@ -1,7 +1,5 @@
 import Head from 'next/head';
-
 import IndexLayout from "components/layouts/IndexLayout";
-
 import { useRouter } from 'next/router';
 
 export default function ContactPage() {

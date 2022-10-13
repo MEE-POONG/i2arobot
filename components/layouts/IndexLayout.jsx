@@ -1,7 +1,7 @@
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import Footer from "../Footers/Footer";
 
-export default function Layout({ children }) {
+export default function IndexLayout({ children }) {
   return (
     <>
       <IndexNavbar />
