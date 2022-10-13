@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import IndexPage from "components/layouts/IndexPage";
+import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
 import SlideHome from 'container/home/home-banner';
 import HomeAbout from 'container/home/home-about';
@@ -26,4 +26,4 @@ export default function HomePage() {
     </ >
   );
 }
-HomePage.layout = IndexPage;
+HomePage.layout = IndexLayout;

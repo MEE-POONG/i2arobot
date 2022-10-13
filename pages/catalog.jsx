@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import IndexPage from "components/layouts/IndexPage";
+import IndexLayout from "components/layouts/IndexLayout";
 
 import { useRecoilState, useSetRecoilState } from 'recoil';
 
@@ -35,4 +35,4 @@ export default function Catalog() {
     </ >
   );
 }
-Catalog.layout = IndexPage;
+Catalog.layout = IndexLayout;

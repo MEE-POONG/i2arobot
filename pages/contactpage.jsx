@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import IndexPage from "components/layouts/IndexPage";
+import IndexLayout from "components/layouts/IndexLayout";
 
 import { useRouter } from 'next/router';
 
@@ -75,4 +75,4 @@ export default function ContactPage() {
     </ >
   );
 }
-ContactPage.layout = IndexPage;
+ContactPage.layout = IndexLayout;
