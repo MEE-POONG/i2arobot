@@ -13,6 +13,7 @@ import HomePricing from 'container/home/home-pricing';
 
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
+import VideoGallery from 'container/home/home-videogallery';
 export default function Home() {
   const router = useRouter();
   return (
@@ -32,7 +33,7 @@ export default function Home() {
         {/* <HomeProfile /> */}
         {/* <HomePricing /> */}
         <HomeVideo />
-        
+        <VideoGallery/>
       </div>
     </ >
   );
