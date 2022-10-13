@@ -19,12 +19,12 @@ import HomeProfile from 'container/home/home-slide';
 import HomePricing from 'container/home/home-pricing';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/home/home-video';
-export default function contactus() {
+export default function ContactPage() {
   const router = useRouter();
   return (
     < >
       <Head>
-        <title>HOME | dxx=</title>
+        <title>Contact | dxx=</title>
         <meta
           name="description"
           content="I2AROBOT 2"
@@ -90,4 +90,4 @@ export default function contactus() {
     </ >
   );
 }
-contactus.layout = IndexPage;
+ContactPage.layout = IndexPage;
