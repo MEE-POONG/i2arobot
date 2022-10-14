@@ -397,12 +397,11 @@ header
 
 .header-area {
   background-color: #fafafa;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 100px;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -771,7 +770,7 @@ header
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
-    height: 100px;
+    
     box-shadow: none;
     text-align: center;
   }
