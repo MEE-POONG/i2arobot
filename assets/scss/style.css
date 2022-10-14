@@ -33,6 +33,7 @@
 
 .item.profile {
     display: flex !important;
+    margin: 10;
     align-items: center;
     justify-content: center;
     align-content: center

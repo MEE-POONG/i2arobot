@@ -5,12 +5,39 @@ import Slider from "react-slick";
 import Modal from 'react-bootstrap/Modal';
 
 export default function VideoGallery() {
-    const settings = {
+    var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 5000,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     const [venVideoGallery, setVenVideoGallery] = useState({ show: false, video: "", })
@@ -29,7 +56,7 @@ export default function VideoGallery() {
                         <div className="col-lg-12">
                             <Slider {...settings}>
                                 <div className="item profile">
-                                    <div className="thumb">
+                                    <div className="thumb p-2">
                                         <a onClick={() => setSmShow(true)} >
                                             <iframe src="https://www.youtube.com/embed/V4C6V1bO4qQ" alt="" style={{ height: "636pX", width: "100%" }} />
                                             <div className="inner-content">
@@ -39,7 +66,7 @@ export default function VideoGallery() {
                                     </div>
                                 </div>
                                 <div className="item profile">
-                                    <div className="thumb">
+                                    <div className="thumb p-2">
                                         <a onClick={() => setSmShow(true)} >
                                             <iframe src="https://www.youtube.com/embed/xQBQ10wL17k" alt="" style={{ height: "636pX", width: "100%" }} />
                                             <div className="inner-content">
@@ -49,8 +76,8 @@ export default function VideoGallery() {
                                     </div>
                                 </div>
                                 <div className="item profile">
-                                    <div className="thumb">
-                                    <a onClick={() => setSmShow(true)} >
+                                    <div className="thumb p-2">
+                                        <a onClick={() => setSmShow(true)} >
                                             <iframe src="https://www.youtube.com/embed/eFsYC8CFIyY" alt="" style={{ height: "636pX", width: "100%" }} />
                                             <div className="inner-content">
                                                 <h4></h4>
@@ -60,7 +87,7 @@ export default function VideoGallery() {
                                 </div>
 
                                 <div className="item profile">
-                                    <div className="thumb">
+                                    <div className="thumb p-2">
                                         <a onClick={() => setSmShow(true)} >
                                             <iframe src="  https://www.youtube.com/embed/4Ru0u3Zn4aA" alt="" style={{ height: "636pX", width: "100%" }} />
                                             <div className="inner-content">

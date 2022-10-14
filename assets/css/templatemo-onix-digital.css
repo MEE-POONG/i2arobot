@@ -96,6 +96,7 @@ figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
 /* clear fix */
@@ -1001,7 +1002,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url('../../public/images/baner-dec-left.png');
+  /* background-image: url('../../public/images/baner-dec-left.png'); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1016,7 +1017,7 @@ Banner Style
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  right: 12%;
+  right: 5%;
   top: 58%;
   width: 900px;
   height: 800px;
