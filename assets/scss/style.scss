@@ -61,9 +61,20 @@ body{
 }
 
 .slick-prev {
-    color: blue ;
+    color: #e61203;
 }
 
 .slick-next {
-    color: blue ;
+    color: #e61203;
+}
+.slick-prev:before {
+    content: "←";
+    
+    color: #e61203;
+    font-size: 23px;
+}
+.slick-next:before {
+    content: "→";
+    color: #e61203;
+    font-size: 23px;
 }
