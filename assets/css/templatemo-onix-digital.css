@@ -1240,7 +1240,7 @@ About
 .about-us .fact-item p {
   margin-top: 20px;
   padding-top: 15px;
-  border-top: 1px solid #eee;
+  /* border-top: 1px solid #eee; */
 }
 
 

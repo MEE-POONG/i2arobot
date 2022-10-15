@@ -19,13 +19,13 @@ export default function SlideHome() {
                                     <Image src={'images/logo.png'} alt="logo-nav" height={425} className='opacity-0' />
                                     <Carousel.Caption className="item header-text text-start b-0 pb-0">
                                         <h6>Welcome to </h6>
-                                        <h3 className='color-ff695f'>I.o. Design AndHome</h3>
+                                        <h3 className='color-ff695f'>I.O. Design AndHome</h3>
                                         <h2>ตัดหญ้า <em>ง่ายๆ</em> ไม่เปลือง  <span> แรง!!!</span></h2>
                                         <h3 style={{ color: "black" }}>รถตัดหญ้าบังคับวิทยุ สไตล์ ไอโอดีไซน์</h3>
                                         <div className="down-buttons">
                                             <div className="main-blue-button-hover">
                                             </div>
-                                            <div className="call-button">
+                                            <div className="call-button"><hr/>
                                                 <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099 -112-4108</a>
                                             </div>
                                         </div>
@@ -36,7 +36,7 @@ export default function SlideHome() {
                                     <Image src={'images/logo.png'} alt="logo-nav" height={425} className='opacity-0' />
                                     <Carousel.Caption className="item header-text text-start b-0 pb-0">
                                     <h6>innovation </h6>                                      
-                                    <h2>I.O.Design ได้คิดค้น <em>นวัตกรรม</em> ใหม่ในการ <span>ตัดหญ้า</span></h2>
+                                    <h2>นวัตกรรม <em>ใหม่</em>จาก  <span>I.O. Design</span></h2>
                                         <h3 style={{ color: "black" }}>นวัตกรรมรถตัดหญ้านี้มีความคงทน แข็งแรง ประหยัด </h3>
 
                                         
@@ -44,7 +44,7 @@ export default function SlideHome() {
                                         <div className="down-buttons">
                                             <div className="main-blue-button-hover">
                                             </div>
-                                            <div className="call-button">
+                                            <div className="call-button"><hr/>
                                                 <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099-112-4108</a> 
                                             </div>
                                         </div>
@@ -61,7 +61,7 @@ export default function SlideHome() {
                                             <div className="main-blue-button-hover">
 
                                             </div>
-                                            <div className="call-button">
+                                            <div className="call-button"><hr/>
                                                 <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 089-513-7365</a>
                                             </div>
                                         </div>
