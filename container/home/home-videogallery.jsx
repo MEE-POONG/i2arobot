@@ -4,16 +4,18 @@ import { FaRegIdCard } from 'react-icons/fa';
 import Slider from "react-slick";
 import Modal from 'react-bootstrap/Modal';
 
+
 export default function VideoGallery() {
     var settings = {
         dots: true,
         infinite: true,
         autoplay: true,
-        speed: 2000,
+        speed: 500,
         autoplaySpeed: 5000,
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
+            
             {
                 breakpoint: 1024,
                 settings: {
@@ -22,6 +24,7 @@ export default function VideoGallery() {
 
                 }
             },
+            
             {
                 breakpoint: 600,
                 settings: {
