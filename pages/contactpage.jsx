@@ -15,7 +15,7 @@ export default function ContactPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div id="contact" className="contact-us section">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7">
               <div className="section-heading">

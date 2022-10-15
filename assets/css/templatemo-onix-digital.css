@@ -282,7 +282,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #ff695f;
+  color: #e61203;
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
@@ -292,7 +292,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ff695f;
+  color: #e61203;
   opacity: 0.15;
 }
 
@@ -322,12 +322,12 @@ body {
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #ff695f;
+  background-color: #e61203;
 }
 
 .main-red-button a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #e61203;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -339,7 +339,7 @@ body {
 
 .main-red-button-hover a {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #e61203;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -360,7 +360,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #ff695f;
+  color: #e61203;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -389,11 +389,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ff685f !important;
+  color: #e61203 !important;
 }
 
 .background-header .nav li a.active {
-  color: #ff685f !important;
+  color: #e61203 !important;
 }
 
 .header-area {
@@ -505,13 +505,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff685f !important;
+  color: #e61203 !important;
 }
 
 .header-area .main-nav a:hover,
 .header-area .main-nav a:active,
 .header-area .main-nav a.active {
-  color: #ff685f !important;
+  color: #e61203 !important;
 }
 .header-area .main-nav .main-red-button-hover a:hover,
 .header-area .main-nav .main-red-button-hover a:active,
@@ -520,7 +520,7 @@ header
 }
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff685f !important;
+  color: #e61203 !important;
   opacity: 1;
 }
 
@@ -582,7 +582,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #ff685f !important;
+  color: #e61203 !important;
   padding-left: 25px;
 }
 
@@ -722,7 +722,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff685f;
+  color: #e61203;
 }
 
 @media (max-width: 1200px) {
@@ -760,7 +760,7 @@ header
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff685f !important;
+    color: #e61203 !important;
     opacity: 1;
   }
 
@@ -834,7 +834,7 @@ header
 
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ff685f !important;
+    color: #e61203 !important;
   }
 
   .header-area .main-nav .nav li.submenu ul {
@@ -955,7 +955,7 @@ preloader
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #ff695f;
+  background: #e61203;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -978,7 +978,7 @@ preloader
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #ff695f;
+  background: #e61203;
   border-radius: 50%;
 }
 
@@ -1026,7 +1026,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #ff695f;
+  color: #e61203;
   margin-bottom: 15px;
 }
 
@@ -1043,7 +1043,7 @@ Banner Style
 }
 
 .main-banner .item h2 span {
-  color: #ff695f;
+  color: #e61203;
 }
 
 .main-banner .item p {
@@ -1069,7 +1069,7 @@ Banner Style
 }
 
 .main-banner .item .down-buttons .call-button a {
-  color: #ff695f;
+  color: #e61203;
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
@@ -1098,8 +1098,8 @@ Banner Style
 }
 
 .main-banner .active:before {
-  color: #ff685f;
-  border-bottom: 3px solid #ff685f;
+  color: #e61203;
+  border-bottom: 3px solid #e61203;
 }
 
 
@@ -1166,7 +1166,7 @@ Services Style
 .our-services .item .icon {
   margin: 0 auto;
   width: 100%;
-  color: #ff695f;
+  color: #e61203;
   font-size: 2rem;
 }
 
@@ -1184,7 +1184,7 @@ Services Style
 .our-services .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  background-color: #e61203;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1234,7 +1234,7 @@ About
 
 .about-us .fact-item .count-title {
   font-size: 15px;
-  color: #ff695f;
+  color: #e61203;
 }
 
 .about-us .fact-item p {
@@ -1364,7 +1364,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-prev span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  background-color: #e61203;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1388,7 +1388,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #ff695f;
+  background-color: #e61203;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1409,7 +1409,7 @@ Portfolio
 .owl-portfolio .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #ff695f;
+  background-color: #e61203;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1486,7 +1486,7 @@ Pricing
 }
 
 .pricing-tables .item em {
-  color: #ff695f;
+  color: #e61203;
   font-size: 15px;
   display: block;
   margin-top: 25px;
@@ -1496,7 +1496,7 @@ Pricing
 
 .pricing-tables .item span {
   font-size: 44px;
-  color: #ff695f;
+  color: #e61203;
   font-weight: 700;
   display: block;
   margin-top: -5px;
@@ -1616,7 +1616,7 @@ Subscribe
 }
 
 .subscribe .inner-content form button:hover {
-  background-color: #ff695f;
+  background-color: #e61203;
 }
 
 
@@ -1864,7 +1864,7 @@ contact
 }
 
 .contact-us .info span a {
-  color: #ff685f;
+  color: #e61203;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -1907,7 +1907,7 @@ form#contact input::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #ff695f;
+  background-color: #e61203;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1981,7 +1981,7 @@ footer .about ul li a {
 }
 
 footer .about ul li a:hover {
-  background-color: #ff695f;
+  background-color: #e61203;
 }
 
 footer .footer-item ul li {
@@ -2000,7 +2000,7 @@ footer .footer-item ul li a {
 }
 
 footer .footer-item ul li a:hover {
-  color: #ff695f;
+  color: #e61203;
 }
 
 footer .footer-item p {
@@ -2050,7 +2050,7 @@ footer .copyright p {
 }
 
 footer .copyright p a {
-  color: #ff695f;
+  color: #e61203;
 }
 
 /* 
@@ -2181,7 +2181,7 @@ responsive
 
   .subscribe .inner-content form button {
     width: 100%;
-    background-color: #ff695f;
+    background-color: #e61203;
     margin-top: 30px;
   }
 
