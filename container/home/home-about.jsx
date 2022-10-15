@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Carousel, Button, Card } from 'react-bootstrap';
+import { Image, Carousel, Button, Card, Row, Col } from 'react-bootstrap';
 import { FaRegIdCard } from 'react-icons/fa';
 import Slider from "react-slick";
 
@@ -33,8 +33,8 @@ export default function HomeAbout() {
                                 <p>ระบบช้าจไฟในตัว มีพัดลมระบายความร้อนไห้กับมอเตอร์ ขนาดตัวรถ 110*110*60</p>
                                 <p>ขับเคลื่อน 4 ล้อ น้ำหนักประมาน 180 กิโลกรัม</p>
 
-                                <div className="row">
-                                    <div className="col-lg-4">
+                                <Row>
+                                    <Col lg="4" md="4">
                                         <div className="fact-item">
                                             <div className="count-area-content">
                                                 <div className="icon">
@@ -46,8 +46,8 @@ export default function HomeAbout() {
                                                     ขับเคลื่อน4ล้อ</p>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="col-lg-4">
+                                    </Col>
+                                    <Col lg="4" md="4">
                                         <div className="fact-item">
                                             <div className="count-area-content">
                                                 <div className="icon">
@@ -58,8 +58,8 @@ export default function HomeAbout() {
                                                 <p>เครื่องยนต์แม็กนั่ม 13 แรงเบนซิน ระบบ สตาท เร่ง ดับ ยกใบตัดควบคุมด้วยรีโหมดทั้งหมด .</p>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="col-lg-4">
+                                    </Col>
+                                    <Col lg="4" md="4">
                                         <div className="fact-item">
                                             <div className="count-area-content">
                                                 <div className="icon">
@@ -70,8 +70,8 @@ export default function HomeAbout() {
                                                 <p>ใบตัด 80 cm (เหล็กแหนบ)</p>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </Col>
+                                </Row>
                             </div>
                         </div>
                     </div>

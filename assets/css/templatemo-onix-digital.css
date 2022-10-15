@@ -513,11 +513,13 @@ header
 .header-area .main-nav a.active {
   color: #e61203 !important;
 }
+
 .header-area .main-nav .main-red-button-hover a:hover,
 .header-area .main-nav .main-red-button-hover a:active,
 .header-area .main-nav .main-red-button-hover a.active {
   color: #ffffff !important;
 }
+
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: #e61203 !important;
@@ -772,7 +774,7 @@ header
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
-    
+
     box-shadow: none;
     text-align: center;
   }
@@ -1063,7 +1065,7 @@ Banner Style
   text-align: center;
   line-height: 46px;
   border-radius: 50%;
-  background: rgb(255, 104, 95);
+  background: #ff2e2e;
   /* background: linear-gradient(105deg, #55c0ec 0%, #55c0ec 100%); */
   color: #fff;
   font-size: 20px;
@@ -1235,6 +1237,7 @@ About
 
 .about-us .fact-item .count-title {
   font-size: 15px;
+  font-weight: bold;
   color: #e61203;
 }
 
@@ -1735,7 +1738,7 @@ Video
 }
 
 .our-videos .nacc .thumb .overlay-effect {
-  background: rgb(255, 104, 95);
+  background: #ff2e2e;
   background: linear-gradient(105deg, #f55555 0%, #eb0000 100%);
   display: inline-block;
   position: absolute;
@@ -1766,7 +1769,7 @@ Video
 }
 
 .our-videos .menu .thumb .inner-content {
-  background: rgb(255, 104, 95);
+  background: #ff2e2e;
   background: linear-gradient(105deg, #f55555 0%, #eb0000 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
@@ -1855,7 +1858,7 @@ contact
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  background: rgb(255, 104, 95);
+  background: #ff2e2e;
   background: linear-gradient(105deg, #55c0ec 0%, #009ad6 100%);
   border-radius: 50%;
   color: #fff;
@@ -2202,7 +2205,19 @@ responsive
   .contact-us .info span {
     margin-bottom: 20px;
   }
+
+  .about-us .fact-item {
+    box-shadow: #ff1c1c29 0px 1px 4px, #ff0909df 0px 0px 0px 3px,#ff38383d 0px 3px 8px;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .section-heading {
+    text-align: center;
+  }
 }
+
 
 .main-banner {
   padding-bottom: 0px;
@@ -2220,4 +2235,10 @@ responsive
   color: #000;
   text-align: center;
 
+}
+
+@media (max-width: 656px) {
+  .about-us .left-image {
+    margin-right: 0;
+  }
 }

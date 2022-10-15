@@ -54,7 +54,7 @@ export default function OurTools() {
                                             <Image src="./images/LINE_ALBUM_220603_3.jpg" alt="" />
                                         </a>
 
-                                        <h5 className='color-ff695f'>Catalog 1</h5>
+                                        <h5 className='color-ff3d3d'>Catalog 1</h5>
                                        
 
                                     </div>
@@ -65,7 +65,7 @@ export default function OurTools() {
                                         <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_2.jpg"})}>
                                             <Image src="./images/LINE_ALBUM_220603_2.jpg" alt="" />
                                         </a>
-                                        <h5 className='color-ff695f'>Catalog 2</h5>
+                                        <h5 className='color-ff3d3d'>Catalog 2</h5>
                                         
 
                                     </div>
@@ -77,7 +77,7 @@ export default function OurTools() {
                                         <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_1.jpg"})}>
                                             <Image src="./images/LINE_ALBUM_220603_1.jpg" alt="" />
                                         </a>
-                                        <h5 className='color-ff695f'>Catalog 3</h5>
+                                        <h5 className='color-ff3d3d'>Catalog 3</h5>
 
                                         
 
@@ -89,7 +89,7 @@ export default function OurTools() {
                                         <a onClick={() => setViewCatalog({...viewCatalog,catalog:true,img:"./images/LINE_ALBUM_220603_0.jpg"})}>
                                             <Image src="./images/LINE_ALBUM_220603_0.jpg" alt="" />
                                         </a>
-                                        <h5 className='color-ff695f'>Catalog 4</h5>
+                                        <h5 className='color-ff3d3d'>Catalog 4</h5>
                                         
 
                                     </div>
