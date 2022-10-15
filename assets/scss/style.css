@@ -48,5 +48,9 @@
     }
 }
 .slick-prev {
-    color: blue !important;
+    color: blue ;
+}
+
+.slick-next {
+    color: blue ;
 }
