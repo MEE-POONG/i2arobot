@@ -1,3 +1,7 @@
+import React, { Component } from "react";
+import Slider from "react-slick";
+import { MdArrowForwardIos } from "react-icons/md";
+import { MdArrowBackIos } from "react-icons/md";
 
 export var SLIDER_SETTING = {
     dots: true,
@@ -7,6 +11,8 @@ export var SLIDER_SETTING = {
     autoplaySpeed: 5000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    nextArrow: <MdArrowForwardIos />,
+    prevArrow: <MdArrowBackIos />,
     responsive: [
         {
           breakpoint: 1024,

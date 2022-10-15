@@ -42,3 +42,11 @@
 .our-portfolio .show-img.modal .modal-dialog {
     padding: 1rem
 }
+@media screen and (max-width: 390px) {
+    .pvc{
+        margin: 10px;
+    }
+}
+.slick-prev {
+    color: blue !important;
+}
