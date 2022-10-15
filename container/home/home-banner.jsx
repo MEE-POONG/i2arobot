@@ -21,7 +21,7 @@ export default function SlideHome() {
                                         <h6>Welcome to </h6>
                                         <h3 className='color-ff695f'>I.O. Design AndHome</h3>
                                         <h2>ตัดหญ้า <em>ง่ายๆ</em> ไม่เปลือง  <span> แรง!!!</span></h2>
-                                        <h3 style={{ color: "black" }}>รถตัดหญ้าบังคับวิทยุ สไตล์ ไอโอดีไซน์</h3>
+                                        <h3 style={{ color: "black" }}>รถตัดหญ้าบังคับวิทยุ สไตล์ ไอโอดีไซน์.</h3>
                                         <div className="down-buttons">
                                             <div className="main-blue-button-hover">
                                             </div>
