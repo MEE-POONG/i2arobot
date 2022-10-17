@@ -21,13 +21,13 @@ export default function Footer() {
                   
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=100079971892608">
                       <i className="fa">
                         <FaFacebookF />
                       </i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">
                       <i className="fa">
                         <FaTwitter />
@@ -47,7 +47,7 @@ export default function Footer() {
                         <FaInstagram />
                       </i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -81,10 +81,7 @@ export default function Footer() {
                 <p> Hot Line : 091-739-3027</p>
                 <p> EMAIL:oiio2005@yahoo.co.th</p>
                 <p>EMAIL:oiio2005@hotmail.co.th</p>
-                <form action="#" method="get">
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="" />
-                  <button type="submit" id="form-submit" className="main-button "><i className="fa fa-paper-plane-o"></i></button>
-                </form>
+
               </div>
             </div>
             <div className="col-lg-12">

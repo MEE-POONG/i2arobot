@@ -33,7 +33,7 @@ export default function GalleryPage() {
   return (
     < >
       <Head>
-        <title>Gallery | </title>
+        <title>I.O. Design & Home CO., LTD. | บริษัท ไอ.โอ.ดีไซน์ แอนด์ โฮม จำกัด</title>
         <meta
           name="description"
           content="I2AROBOT 2"

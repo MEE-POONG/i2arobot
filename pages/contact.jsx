@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     < >
       <Head>
-        <title>Contact | dxx=</title>
+        <title>I.O. Design & Home CO., LTD. | บริษัท ไอ.โอ.ดีไซน์ แอนด์ โฮม จำกัด</title>
         <meta
           name="description"
           content="I2AROBOT 2"
@@ -20,14 +20,30 @@ export default function ContactPage() {
           <div className="row">
             <div className="col-lg-7">
               <div className="section-heading">
-                <h2>Feel free to <em>Contact</em> us via the <span>HTML form</span></h2>
+                <h2>Feel free to <em>Contact</em> us via the <span>HTML form</span>
+                </h2>
                 <div id="map">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d484.6569287739167!2d100.47176262255218!3d13.642220229992173!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a2cc5d820327%3A0xa613a036b2061a31!2z4LmE4Lit4LmC4LitIOC4lOC4teC5hOC4i-C4meC5jEDguYLguK7guKE!5e0!3m2!1sth!2sth!4v1665041908297!5m2!1sth!2sth"
-                    width="100%" height="360px" frameBorder="0" style={{ border: "0" }} allowFullScreen=""></iframe>
+                    width="100%" height="360px" frameBorder="0" style={{ border: "0" }} allowFullScreen="">
+                  </iframe>
                 </div>
                 <div className="info">
-                  <span><i className="fa fa-phone"></i> <a href="#">010-020-0340<br />090-080-0760</a></span>
-                  <span><i className="fa fa-envelope"></i> <a href="#">info@company.com<br />mail@company.com</a></span>
+                  <span>
+                    <i className="fa fa-phone">
+                    </i>
+                    <a href="#">
+                      02-409-2152-9<br />02-409-2150-1
+                    </a>
+                  </span>
+                  <span>
+                    <i className="fa fa-envelope">
+                    </i>
+                    <a href="#">
+                      oiio2005@yahoo.co.th
+                      <br />
+                      oiio2005@hotmail.co.th
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
