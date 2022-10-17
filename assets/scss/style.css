@@ -2,7 +2,7 @@
 @import"~slick-carousel/slick/slick-theme.css";
 
 * {
-    font-family: "IBM Plex Sans Thai Looped", sans-serif
+    font-family: "Kodchasan", sans-serif
 }
 
 @media(max-width: 991px) {

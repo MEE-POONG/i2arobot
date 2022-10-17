@@ -29,14 +29,16 @@ export default function ContactPage() {
                 </div>
                 <div className="info">
                   <span>
-                    <i className="fa fa-phone">
+                    <i className="fa">
+                      <FaPhoneAlt />
                     </i>
                     <a href="#">
                       02-409-2152-9<br />02-409-2150-1
                     </a>
                   </span>
                   <span>
-                    <i className="fa fa-envelope">
+                    <i className="fa">
+                     <FaRegEnvelope/>
                     </i>
                     <a href="#">
                       oiio2005@yahoo.co.th
