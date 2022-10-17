@@ -2,6 +2,7 @@ import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
 import { Image } from 'react-bootstrap';
+import { FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa';
 
 export default function ContactPage() {
   const router = useRouter();
