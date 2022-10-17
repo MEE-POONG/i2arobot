@@ -88,7 +88,7 @@ export default function Footer() {
               <div className="copyright">
                 <p>ME PROMPT TECHNOLOGY COMPANY LIMITED
                   <br />
-                  บริษัท มี พุง กรุ๊ป จำกัด <a rel="nofollow" href="https://www.meepoong.com/" title="free CSS templates">WRDSITE MEE POONG</a>
+                  <a rel="nofollow" href="https://www.meepoong.com/" title="บริษัท มี พร้อมท์ เทคโนโลยี จำกัด">บริษัท มี พร้อมท์ เทคโนโลยี จำกัด</a>
                   <br />
                 
                 </p>
