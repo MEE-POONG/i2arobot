@@ -37,7 +37,11 @@ body {
     }
 }
 
-
+@media screen and (max-width: 370px) {
+    .opacity-0{
+        height: 475px;
+    }
+}
 
 .slick-dots li button:before {
     color: #ff1212;
