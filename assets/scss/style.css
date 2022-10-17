@@ -1,9 +1,10 @@
 @import"~slick-carousel/slick/slick.css";
 @import"~slick-carousel/slick/slick-theme.css";
-@import"https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+
 
 body {
-    font-family: "IBM Plex Sans Thai Looped", sans-serif
+    font-family: "Kodchasan", sans-serif
 }
 
 @media(max-width: 991px) {

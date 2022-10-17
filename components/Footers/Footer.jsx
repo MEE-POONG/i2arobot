@@ -105,7 +105,6 @@ export default function Footer() {
             <div className="col-lg-12">
               <div className="copyright">
                 <p>
-                  <br />
                   <a
                     rel="nofollow"
                     href="https://www.meepoong.com/"
@@ -113,7 +112,6 @@ export default function Footer() {
                   >
                     ME PROMPT TECHNOLOGY COMPANY LIMITED
                   </a>
-                  <br />
                 </p>
               </div>
             </div>
