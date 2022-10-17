@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
+import { Image } from 'react-bootstrap';
 
 export default function ContactPage() {
   const router = useRouter();
@@ -64,10 +65,10 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="contact-dec">
-          <img src="images/contact-dec.png" alt="" />
+          <Image src="images/contact-dec.png" alt="" />
         </div>
         <div className="contact-left-dec">
-          <img src="images/contact-left-dec.png" alt="" />
+          <Image src="images/contact-left-dec.png" alt="" />
         </div>
       </div>
     </ >

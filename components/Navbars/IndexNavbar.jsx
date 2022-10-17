@@ -16,11 +16,11 @@ export default function IndexNavbar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="main-nav">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/gallery">gallery</Nav.Link>
-              <Nav.Link href="/catalog">catalog</Nav.Link>
+              <Nav.Link href="/" className="font-bold">Home</Nav.Link>
+              <Nav.Link href="/gallery" className="font-bold">gallery</Nav.Link>
+              <Nav.Link href="/catalog" className="font-bold">catalog</Nav.Link>
               <div className="main-red-button-hover">
-                <Nav.Link href="/contactpage">Contact Us Now</Nav.Link>
+                <Nav.Link href="/contactpage" className="font-bold">Contact Us Now</Nav.Link>
               </div>
             </Nav>
           </Navbar.Collapse>

@@ -15,7 +15,7 @@ export default function VideoGallery() {
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
-            
+
             {
                 breakpoint: 1024,
                 settings: {
@@ -24,11 +24,18 @@ export default function VideoGallery() {
 
                 }
             },
-            
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 659,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     initialSlide: 1
                 }
@@ -54,55 +61,51 @@ export default function VideoGallery() {
         <>
             <div id="portfolio" className="our-portfolio section">
 
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <Slider {...settings}>
-                                <div className="item profile">
-                                    <div className="thumb p-2">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <iframe src="https://www.youtube.com/embed/V4C6V1bO4qQ" alt="" style={{ height: "636pX", width: "100%" }} />
-                                            <div className="inner-content">
-                                                <h4></h4>
-                                            </div>
-                                        </a>
+                <div className="container">
+                    <Slider {...settings}>
+                        <div className="item profile">
+                            <div className="thumb p-2">
+                                <a onClick={() => setSmShow(true)} >
+                                    <iframe src="https://www.youtube.com/embed/V4C6V1bO4qQ" alt="" style={{ height: "636pX", width: "100%" }} />
+                                    <div className="inner-content">
+                                        <h4></h4>
                                     </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb p-2">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <iframe src="https://www.youtube.com/embed/xQBQ10wL17k" alt="" style={{ height: "636pX", width: "100%" }} />
-                                            <div className="inner-content">
-                                                <h4></h4>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="item profile">
-                                    <div className="thumb p-2">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <iframe src="https://www.youtube.com/embed/eFsYC8CFIyY" alt="" style={{ height: "636pX", width: "100%" }} />
-                                            <div className="inner-content">
-                                                <h4></h4>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="item profile">
-                                    <div className="thumb p-2">
-                                        <a onClick={() => setSmShow(true)} >
-                                            <iframe src="  https://www.youtube.com/embed/4Ru0u3Zn4aA" alt="" style={{ height: "636pX", width: "100%" }} />
-                                            <div className="inner-content">
-                                                <h4></h4>
-                                            </div>
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </Slider>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                        <div className="item profile">
+                            <div className="thumb p-2">
+                                <a onClick={() => setSmShow(true)} >
+                                    <iframe src="https://www.youtube.com/embed/xQBQ10wL17k" alt="" style={{ height: "636pX", width: "100%" }} />
+                                    <div className="inner-content">
+                                        <h4></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="item profile">
+                            <div className="thumb p-2">
+                                <a onClick={() => setSmShow(true)} >
+                                    <iframe src="https://www.youtube.com/embed/eFsYC8CFIyY" alt="" style={{ height: "636pX", width: "100%" }} />
+                                    <div className="inner-content">
+                                        <h4></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="item profile">
+                            <div className="thumb p-2">
+                                <a onClick={() => setSmShow(true)} >
+                                    <iframe src="  https://www.youtube.com/embed/4Ru0u3Zn4aA" alt="" style={{ height: "636pX", width: "100%" }} />
+                                    <div className="inner-content">
+                                        <h4></h4>
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                    </Slider>
                 </div>
             </div >
             <Modal
