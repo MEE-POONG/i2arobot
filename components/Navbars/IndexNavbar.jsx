@@ -20,7 +20,7 @@ export default function IndexNavbar() {
               <Nav.Link href="/gallery" className="font-bold">gallery</Nav.Link>
               <Nav.Link href="/catalog" className="font-bold">catalog</Nav.Link>
               <div className="main-red-button-hover">
-                <Nav.Link href="/contactpage" className="font-bold">Contact Us Now</Nav.Link>
+                <Nav.Link href="/contact" className="font-bold">Contact Us Now</Nav.Link>
               </div>
             </Nav>
           </Navbar.Collapse>
