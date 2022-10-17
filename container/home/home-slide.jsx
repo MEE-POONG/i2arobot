@@ -25,26 +25,26 @@ export default function SlideHome() {
                                         <div className="down-buttons">
                                             <div className="main-blue-button-hover">
                                             </div>
-                                            <div className="call-button"><hr/>
+                                            <div className="call-button"><hr />
                                                 <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099 -112-4108</a>
                                             </div>
                                         </div>
                                     </Carousel.Caption>
                                 </Carousel.Item>
-                                {/* <Carousel.Item>
+                                <Carousel.Item>
                                     <Image src={'images/logo.png'} alt="logo-nav" height={425} className='opacity-0' />
                                     <Carousel.Caption className="item header-text text-start b-0 pb-0">
-                                    <h6>innovation </h6>                                      
-                                    <h2>นวัตกรรม <em>ใหม่</em>จาก  <span>I.O. Design</span></h2>
+                                        <h6>innovation </h6>
+                                        <h2>นวัตกรรม <em>ใหม่</em>จาก  <span>I.O. Design</span></h2>
                                         <h3 style={{ color: "black" }}>นวัตกรรมรถตัดหญ้านี้มีความคงทน แข็งแรง ประหยัด </h3>
 
-                                        
-                                        
+
+
                                         <div className="down-buttons">
                                             <div className="main-blue-button-hover">
                                             </div>
-                                            <div className="call-button"><hr/>
-                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099-112-4108</a> 
+                                            <div className="call-button"><hr />
+                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099-112-4108</a>
                                             </div>
                                         </div>
                                     </Carousel.Caption>
@@ -59,12 +59,12 @@ export default function SlideHome() {
                                             <div className="main-blue-button-hover">
 
                                             </div>
-                                            <div className="call-button"><hr/>
+                                            <div className="call-button"><hr />
                                                 <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 089-513-7365</a>
                                             </div>
                                         </div>
                                     </Carousel.Caption>
-                                </Carousel.Item> */}
+                                </Carousel.Item>
                             </Carousel>
                             <div className="carousel-indicators position-relative d-flex justify-content-start owl-dots">
                                 <Button bsPrefix={indexCarousel === 0 ? "owl-dot active" : "owl-dot"} onClick={() => { setIndexCarousel(0) }} aria-label="Slide 1"></Button>
