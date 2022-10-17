@@ -8,7 +8,7 @@ import VideoGallery from 'container/home/home-videogallery';
 export default function HomePage() {
   const router = useRouter();
   return (
-    < >
+    <>
       <Head>
         <title>HOME | dxx=</title>
         <meta
@@ -23,7 +23,7 @@ export default function HomePage() {
         <HomeVideo />
         <VideoGallery />
       </div>
-    </ >
+    </>
   );
 }
 HomePage.layout = IndexLayout;
