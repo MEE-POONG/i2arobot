@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
-import SlideHome from 'container/home/home-banner';
+import SlideHome from 'container/home/home-slide';
 import HomeAbout from 'container/home/home-about';
 import HomeVideo from 'container/video/video-views';
 import VideoGallery from 'container/home/home-videogallery';
