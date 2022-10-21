@@ -31,7 +31,7 @@ export default function HomeAbout() {
 
                                 <p>ใบตัด 80 เซนติเมตร (เหล็กแหนบ) ระบบ สตาท เร่ง ดับ ยกใบตัดควบคุมด้วยรีโหมดทั้งหมด</p>
                                 <p>ระบบช้าจไฟในตัว มีพัดลมระบายความร้อนไห้กับมอเตอร์ ขนาดตัวรถ 110*110*60</p>
-                                <p>ขับเคลื่อน 4 ล้อ น้ำหนักประมาน 180 กิโลกรัม</p>
+                                <p>ขับเคลื่อน 4 ล้อ น้ำหนักประมาน 205 กิโลกรัม</p>
 
                                 <Row>
                                     <Col lg="4" md="4">
@@ -40,9 +40,9 @@ export default function HomeAbout() {
                                                 <div className="icon">
                                                     <Image src="./images/service-icon-01.png" alt="" />
                                                 </div>
-                                                <div className="count-digit">180</div>
+                                                <div className="count-digit">205</div>
                                                 <div className="count-title">กิโลกรัม</div>
-                                                <p>น้ำหนักประมาน 180 กิโลกรัม ขนาดตัวรถ 110*110*60
+                                                <p>น้ำหนักประมาน 205 กิโลกรัม ขนาดตัวรถ 110*110*60
                                                     ขับเคลื่อน4ล้อ</p>
                                             </div>
                                         </div>
