@@ -26,7 +26,7 @@ export default function SlideHome() {
                                             <div className="main-blue-button-hover">
                                             </div>
                                             <div className="call-button"><hr />
-                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099 -112-4108</a>
+                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 064-464-0456</a>
                                             </div>
                                         </div>
                                     </Carousel.Caption>
@@ -44,7 +44,7 @@ export default function SlideHome() {
                                             <div className="main-blue-button-hover">
                                             </div>
                                             <div className="call-button"><hr />
-                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 099-112-4108</a>
+                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 064-464-0456</a>
                                             </div>
                                         </div>
                                     </Carousel.Caption>
@@ -60,7 +60,7 @@ export default function SlideHome() {
 
                                             </div>
                                             <div className="call-button"><hr />
-                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 089-513-7365</a>
+                                                <a href="#"><i className="fa fa-phone"><FaPhoneAlt /></i> 064-464-0456</a>
                                             </div>
                                         </div>
                                     </Carousel.Caption>

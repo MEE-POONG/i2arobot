@@ -78,8 +78,8 @@ export default function Footer() {
                 <p>21/1 ซอยอนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน กรุงเทพฯ 10150</p>
                 <p>TEL : 02-409-2152-9</p>
                 <p>FAX : 02-409-2150-1</p>
-                <p> Hot Line : 091-739-3027</p>
-                <p> EMAIL:oiio2005@yahoo.co.th</p>
+                <p>Hot Line : 064-464-0456</p>
+                <p>EMAIL:oiio2005@yahoo.co.th</p>
                 <p>EMAIL:oiio2005@hotmail.co.th</p>
 
               </div>
