@@ -11,7 +11,7 @@ export default function IndexNavbar() {
       <Navbar className="header-area header-sticky wow slideInDown" expand="lg">
         <Container >
           <Navbar.Brand href="/">
-            <Image src={'images/iodesign.png'} alt="logo-nav" />
+            <Image src={'images/iodesign.png'} alt="logo-nav"  height={69} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

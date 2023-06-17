@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     < >
       <Head>
-        <title>I.O. Design & Home CO., LTD. | บริษัท ไอ.โอ.ดีไซน์ แอนด์ โฮม จำกัด</title>
+        <title>รถตัดหญ้า บังคับวิทยุ I2arobot | I.O. Design & Home CO., LTD. | บริษัท ไอ.โอ.ดีไซน์ แอนด์ โฮม จำกัด</title>
         <meta
           name="description"
           content="I2AROBOT 2"

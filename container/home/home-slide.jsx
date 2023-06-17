@@ -19,9 +19,9 @@ export default function SlideHome() {
                                     <Image src={'images/logo.png'} alt="logo-nav" height={425} className='opacity-0' />
                                     <Carousel.Caption className="item header-text text-start b-0 pb-0">
                                         <h6>Welcome to </h6>
-                                        <h3 className='color-ff3d3d'>I.O. Design AndHome</h3>
+                                        <h3 className='color-ff3d3d'>รถตัดหญ้าบังคับวิทยุ สไตล์ i2arobot</h3>
                                         <h2>ตัดหญ้า <em>ง่ายๆ</em> ไม่เปลือง  <span> แรง!!!</span></h2>
-                                        <h3 style={{ color: "black" }}>รถตัดหญ้าบังคับวิทยุ สไตล์ ไอโอดีไซน์</h3>
+                                        <h3 style={{ color: "black" }}>รถตัดหญ้าบังคับวิทยุ สไตล์ i2arobot</h3>
                                         <div className="down-buttons">
                                             <div className="main-blue-button-hover">
                                             </div>
@@ -35,7 +35,7 @@ export default function SlideHome() {
                                     <Image src={'images/logo.png'} alt="logo-nav" height={425} className='opacity-0' />
                                     <Carousel.Caption className="item header-text text-start b-0 pb-0">
                                         <h6>innovation </h6>
-                                        <h2>นวัตกรรม <em>ใหม่</em>จาก  <span>I.O. Design</span></h2>
+                                        <h2>นวัตกรรม <em>ใหม่</em>จาก  <span>i2arobot</span></h2>
                                         <h3 style={{ color: "black" }}>นวัตกรรมรถตัดหญ้านี้มีความคงทน แข็งแรง ประหยัด </h3>
 
 

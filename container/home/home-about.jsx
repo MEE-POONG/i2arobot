@@ -23,7 +23,7 @@ export default function HomeAbout() {
                         </div>
                         <div className="col-lg-6">
                             <div className="section-heading">
-                                <h2>รถตัดหญ้า <em>บังคับวิทยุ </em> <span>ไอโอดีไซน์</span> </h2>
+                                <h2>รถตัดหญ้า <em>บังคับวิทยุ </em> <span>i2arobot</span> </h2>
                                 <h2 className='mt-5'>รายละเอียดเบื้องต้น</h2>
                                 <p className='mt-3'>รีโหมด fsi6x 10 ch
                                     เครื่องยนต์แม็กนั่ม 13 แรงเบนซิน

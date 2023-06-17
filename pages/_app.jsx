@@ -76,7 +76,7 @@ export default class MyApp extends App {
               name="viewport"
               content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
-            <title>Notus NextJS by Creative Tim</title>
+            <title>รถตัดหญ้า บังคับวิทยุ I2arobot</title>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link
               rel="preconnect"
